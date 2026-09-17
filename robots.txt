@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://virada-propria.github.io/sitemap.xml
