@@ -24,8 +24,8 @@ def public_files(root, check_git):
         names = subprocess.check_output(['git','-C',str(root),'ls-files','-z'], encoding='utf-8').split('\0')
     else:
         names = [p.relative_to(root).as_posix() for p in root.rglob('*') if p.is_file()]
-    return sorted(n for n in names if n and not any(p.startswith(('.', '_')) for p in n.split('/'))
-                  and (Path(n).suffix.lower() in PUBLIC_SUFFIXES or n in ('robots.txt','sitemap.xml')))
+    from publicacao import public
+    return sorted(n for n in names if n and public(n))
 
 def process(path, root=inp.ROOT, check_git=True, evidence=None, browser=False, online=False):
     initial = inp.preflight(path, root, check_git)
@@ -201,7 +201,7 @@ def process(path, root=inp.ROOT, check_git=True, evidence=None, browser=False, o
             known = [x.text for x in xml.findall('{'+ns+'}url/{'+ns+'}loc')]
             if len(known) != len(set(known)):
                 fail('SITEMAP_DUPLICADO','URLs preexistentes duplicadas')
-            for route in generated:
+            for route in [*generated, '/profissoes/']:
                 if BASE_URL+route not in known:
                     ET.SubElement(ET.SubElement(xml,'{'+ns+'}url'),'{'+ns+'}loc').text = BASE_URL+route
             write('sitemap.xml',ET.tostring(xml,encoding='utf-8',xml_declaration=True))
@@ -227,7 +227,7 @@ def process(path, root=inp.ROOT, check_git=True, evidence=None, browser=False, o
                     report['plano'].append(dict(arquivo=rel,acao='atualizar' if rel in baseline else 'criar',sha256=digest))
         fingerprint = sha(json.dumps(dict(zip=report['zip_sha256'],baseline=baseline,changed=changed,canonical=canonical),sort_keys=True).encode())
         report['fingerprint'] = fingerprint
-        requests = revisao.template(inp.PRODUCTION/'canonico'/canonical['manual']['arquivo'],fingerprint,list(generated))
+        requests = revisao.template(inp.PRODUCTION/'canonico'/canonical['manual']['arquivo'],fingerprint,list(dict.fromkeys([*generated, '/profissoes/'])))
         for row in list(errors):
             if row['codigo'] == 'IMAGENS_ADAPTACAO':
                 slug = row['detalhe'].split(':',1)[0]
@@ -251,8 +251,9 @@ def process(path, root=inp.ROOT, check_git=True, evidence=None, browser=False, o
         external = sorted({u for a in manifest['materias'] for p in a['produtos'] for u in p['links_aprovados']} | {u for a in manifest['materias'] for u in a.get('fontes_externas',[])})
         report['links_externos'] = inspect_links(external,online)
         report['qcs']['comercial'].extend(report['links_externos'])
-        if any((root/n).exists() for n in ('.nojekyll','_config.yml','.github/workflows')):
-            fail('PAGES_REVALIDAR_ISOLAMENTO','Configuração local mudou em relação à investigada')
+        from publicacao import configuration_errors
+        for detail in configuration_errors(root):
+            fail('PAGES_REVALIDAR_ISOLAMENTO',detail)
         report['publicacao'] = dict(autorizada=False, motivos=['Dry-run: sem aplicação, commit, push, PR ou merge.',
                                   'Revalidar Pages e excluir AGENTS.md antes da publicação de infraestrutura.'])
         for name,digest in baseline.items():

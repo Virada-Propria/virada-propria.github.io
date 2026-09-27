@@ -1,0 +1,54 @@
+{
+  "modo": "apply",
+  "aplicado": false,
+  "publicacao_liberada": false,
+  "diretorio": "C:\\Users\\eduar\\AppData\\Local\\Temp\\vp-apply-f7dhsfbx",
+  "erros": [
+    "Dry-run prévio não aprovado ou incompleto"
+  ],
+  "arquivos_publicos_alterados": [],
+  "rollback": false,
+  "git_antes": {
+    "branch": "automacao-publicacao-v2",
+    "origin": "https://github.com/Virada-Propria/virada-propria.github.io.git",
+    "head": "4ca20eb84b0ee7cf446befaf2be3f9496b9e039a",
+    "status": ""
+  },
+  "dry_run_previo": {
+    "diretorio": "C:\\Users\\eduar\\AppData\\Local\\Temp\\vp-dry-run-4f82k_kh",
+    "fingerprint": "b0b6b1ac34d2e28b145144b27377471f8d53300323fc7480f781c7197c4e3ead",
+    "bloqueios": [
+      {
+        "codigo": "PAUTA_DESTINO_AUSENTE",
+        "status": "reprovado",
+        "referencia": "Manual 7.17",
+        "detalhe": "dependencia-nao-fornecida"
+      },
+      {
+        "codigo": "PROXIMA_AUSENTE",
+        "status": "reprovado",
+        "referencia": "Manual 11.33; 12.20",
+        "detalhe": "dependencia-nao-fornecida"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "reprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/: /profissao-teste/formacao/"
+      }
+    ],
+    "erros_entrada": []
+  },
+  "git_depois": {
+    "branch": "automacao-publicacao-v2",
+    "origin": "https://github.com/Virada-Propria/virada-propria.github.io.git",
+    "head": "4ca20eb84b0ee7cf446befaf2be3f9496b9e039a",
+    "status": ""
+  },
+  "contexto_exemplo": {
+    "somente_dados_sinteticos": true,
+    "rede_simulada": true,
+    "revisao_sintetica": true,
+    "navegador_simulado": true
+  }
+}

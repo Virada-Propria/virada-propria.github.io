@@ -1,0 +1,30 @@
+{
+  "modo": "apply",
+  "aplicado": false,
+  "publicacao_liberada": false,
+  "diretorio": "C:\\Users\\eduar\\AppData\\Local\\Temp\\vp-apply-7jpgp1k5",
+  "erros": [
+    "Apply exige git status limpo; preserve e resolva alterações antes de aplicar"
+  ],
+  "arquivos_publicos_alterados": [],
+  "rollback": false,
+  "git_antes": {
+    "branch": "automacao-publicacao-v2",
+    "origin": "https://github.com/Virada-Propria/virada-propria.github.io.git",
+    "head": "9efcedcbfdc9ab0818903febe2c9f4cc50fa6f9f",
+    "status": "M profissoes/index.html\n M sitemap.xml\n?? assets/img/produtos/\n?? profissao-teste/"
+  },
+  "git_depois": {
+    "branch": "automacao-publicacao-v2",
+    "origin": "https://github.com/Virada-Propria/virada-propria.github.io.git",
+    "head": "9efcedcbfdc9ab0818903febe2c9f4cc50fa6f9f",
+    "status": "M profissoes/index.html\n M sitemap.xml\n?? assets/img/produtos/\n?? profissao-teste/"
+  },
+  "contexto_exemplo": {
+    "somente_dados_sinteticos": true,
+    "navegador_real": true,
+    "rede_simulada": true,
+    "revisao_sintetica": true,
+    "repositorio_temporario": "C:/Users/eduar/AppData/Local/Temp/vp-exemplo-apply-iud16r2c/repo"
+  }
+}

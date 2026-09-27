@@ -23,6 +23,9 @@ def internal_target(url, route):
     return path, unquote(parsed.fragment)
 
 def link_exists(site, url, route):
+    from publicacao import internal_reference
+    if internal_reference(url):
+        return False
     target = internal_target(url, route)
     if target is None:
         return True

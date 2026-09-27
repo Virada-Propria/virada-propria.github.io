@@ -1,6 +1,6 @@
 # Operação do pipeline de lotes
 
-A única fonte de regras de produção é o Manual em `canonico/vigente.json`, acompanhado do HTML-base da mesma versão. Este documento descreve o software, sem substituir o Manual. Não há aplicação no checkout, commit, push, PR, merge ou deploy nesta versão.
+A única fonte de regras de produção é o Manual em `canonico/vigente.json`, acompanhado do HTML-base da mesma versão. Este documento descreve o software, sem substituir o Manual. O dry-run permanece isolado. O modo `apply`, separado e descrito em [APPLY.md](APPLY.md), grava somente após validar o lote aprovado. Nenhum modo executa commit, push, PR, merge ou deploy.
 
 ## Fluxo único
 
@@ -63,4 +63,4 @@ Saídas da CLI: 0 = QCs concluídos; 1 = pacote aceito com bloqueios/pendências
 
 Fornecer pauta aprovada completa de Estética Automotiva, pesquisa, textos e metadados, introduções do hub/categorias, imagens finais com origem/modelo e links aprovados. Providenciar logo oficial e conteúdo aprovado de `/empreendedorismo/`. Resolver QCs, revisar capturas e registrar evidências pelo mesmo fluxo.
 
-A publicação posterior exige autorização, revisão do diff, aplicação controlada e revalidação do Pages descrita em `PAGES.md`, incluindo exclusão de AGENTS.md da saída. Nenhum mecanismo de deploy foi criado. `_producao/` não pode constar no artefato público, mesmo se a configuração do Pages mudar.
+A aplicação controlada está disponível pelo modo `apply`; veja `APPLY.md`. A publicação posterior exige autorização, revisão do diff e revalidação do Pages descrita em `PAGES.md`. `_config.yml` exclui explicitamente AGENTS.md e os arquivos internos. Nenhum mecanismo de deploy foi criado. `_producao/` não pode constar no artefato público, mesmo se a configuração do Pages mudar.

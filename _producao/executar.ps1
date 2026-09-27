@@ -1,5 +1,5 @@
 param(
-    [ValidateSet('testar', 'simular', 'exemplo', 'preview')]
+    [ValidateSet('testar', 'simular', 'apply', 'exemplo', 'preview')]
     [string]$Acao = 'testar',
     [string]$Zip,
     [string]$PythonExe,
@@ -17,6 +17,10 @@ if (-not (Test-Path -LiteralPath $PythonExe -PathType Leaf)) {
     throw 'Python não encontrado. Informe -PythonExe com o caminho de um Python 3.10+.'
 }
 switch ($Acao) {
+    'apply' {
+        if (-not $Zip -or -not $Run -or -not $Revisoes) { throw 'Apply exige -Zip, -Run (dry-run aprovado) e -Revisoes.' }
+        & $PythonExe -X utf8 -B (Join-Path $PSScriptRoot 'automacao/aplicar.py') $Zip --dry-run $Run --revisoes $Revisoes
+    }
     'testar' { & $PythonExe -X utf8 -B -m unittest discover -s (Join-Path $PSScriptRoot 'tests') -v }
     'simular' {
         if (-not $Zip) { throw 'Informe -Zip com o caminho do lote.' }

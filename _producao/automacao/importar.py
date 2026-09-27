@@ -131,6 +131,12 @@ def preflight(path, root=ROOT, check_git=True):
         if manifest['versao_canonica'] != current['versao']:
             raise ValueError('Versão do lote diferente da referência vigente')
         profession, articles = manifest['profissao'], manifest['materias']
+        from publicacao import public, internal
+        if profession in ('assets','profissoes','empreendedorismo') or internal(profession):
+            raise ValueError('Profissão usa rota reservada ou interna')
+        for article in articles:
+            if any(not public(i['caminho'].lstrip('/')) for i in article['imagens']):
+                raise ValueError('Imagem destinada a caminho interno ou não público')
         slugs = [a['slug'] for a in articles]
         if len(slugs) != len(set(slugs)) or set(slugs) & set(CATEGORIES):
             raise ValueError('Slug duplicado ou reservado para categoria')
@@ -220,9 +226,10 @@ def preflight(path, root=ROOT, check_git=True):
             if source and present and (root / dest.lstrip('/')).read_bytes() != files[source]:
                 finding('ASSET_SOBRESCRITA', 'reprovado', 'Contrato operacional: preservar assets', dest)
             report['plano'].append(dict(tipo='imagem', caminho=dest, acao='preservar' if present else 'adicionar' if source else 'ausente'))
-        if any((root / name).exists() for name in ('.nojekyll', '_config.yml', '.github/workflows')):
+        from publicacao import configuration_errors
+        for detail in configuration_errors(root):
             finding('PAGES_REVALIDAR_ISOLAMENTO', 'reprovado', 'Diagnóstico operacional Pages',
-                    'Configuração local diferente da investigada; conferir exclusão de _producao/.')
+                    detail)
         finding('PAGES_ARTEFATO_PENDENTE', 'pendente', 'Solicitação do usuário: área interna fora do site',
                 'Revalidar configuração remota e ausência de _producao/ no artefato antes de publicar; AGENTS.md também precisará de exclusão explícita.')
         def exists_image(image):

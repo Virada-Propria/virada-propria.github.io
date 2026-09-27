@@ -26,10 +26,10 @@ No processamento padrão do Jekyll, diretórios iniciados por `_` não são copi
 
 Isso NÃO é uma garantia independente do mecanismo de publicação. Se houver `.nojekyll`, inclusão explícita em configuração ou upload direto da raiz, os arquivos internos poderão chegar ao site. Antes de qualquer publicação futura, revalidar a configuração remota e inspecionar o artefato final para exigir ausência de `_producao/`. O importador sinaliza mudança local de configuração, mas não consulta a rede nem valida um artefato real nesta etapa.
 
-`AGENTS.md`, na raiz, não tem o prefixo `_` e pode ser publicado por Jekyll como arquivo ou página. Antes de levar esta infraestrutura à branch publicada, excluir explicitamente esse arquivo da saída. Não foi criado `_config.yml` nesta etapa para respeitar o escopo e preservar o mecanismo atual.
+Na investigação inicial, `AGENTS.md` ainda não tinha exclusão explícita. A etapa `apply` adicionou `_config.yml` local à branch de trabalho, excluindo AGENTS.md, `_producao/`, testes, manifests, relatórios, ZIPs e temporários. O arquivo usa JSON válido como YAML, include vazio e padrões também para variantes de capitalização. O apply recusa configurações diferentes da lista conhecida em `automacao/publicacao.py`. Isso não modifica o Pages remoto enquanto a branch não for incorporada à origem publicada.
 
 Exclusão do Pages não é confidencialidade no GitHub: quando versionados e enviados, arquivos de `_producao/` estarão acessíveis no repositório público. Não armazenar segredos, credenciais ou dados privados de lotes nesse diretório versionado.
 
-Não foi criado workflow, deploy, `.nojekyll`, configuração Jekyll ou alteração em sitemap/robots.
+Não foi criado workflow, deploy ou `.nojekyll`. Somente a configuração local de exclusão Jekyll foi adicionada nesta etapa; sitemap/robots públicos permanecem intactos. Os exemplos de apply são executados em repositórios temporários separados. Um build real do Jekyll não foi executado nesta etapa; antes de publicação autorizada, conferir novamente o artefato real do Pages.
 
 Fontes: [GitHub Pages e Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll) e [bypass com .nojekyll](https://github.blog/news-insights/bypassing-jekyll-on-github-pages/).
