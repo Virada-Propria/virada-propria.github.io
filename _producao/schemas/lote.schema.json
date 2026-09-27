@@ -1,0 +1,340 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Contrato operacional de lote — não substitui o Manual Mestre",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "versao_canonica",
+    "profissao",
+    "pauta",
+    "materias"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "#/$defs/slug"
+    },
+    "versao_canonica": {
+      "type": "string",
+      "const": "1.1"
+    },
+    "profissao": {
+      "$ref": "#/$defs/slug"
+    },
+    "pauta": {
+      "$ref": "#/$defs/pauta"
+    },
+    "materias": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 10,
+      "items": {
+        "$ref": "#/$defs/materia"
+      }
+    },
+    "dependencias": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/dependencia"
+      }
+    }
+  },
+  "$defs": {
+    "texto": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "arquivo": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9_-]+(/[a-zA-Z0-9_-]+)*\\.[a-zA-Z0-9]+$"
+    },
+    "asset": {
+      "type": "string",
+      "pattern": "^/assets/[a-zA-Z0-9_-]+(/[a-zA-Z0-9_-]+)*\\.(png|jpg|jpeg|webp|gif|svg)$"
+    },
+    "rota": {
+      "type": "string",
+      "pattern": "^/([a-z0-9]+(-[a-z0-9]+)*/)*$"
+    },
+    "categoria": {
+      "type": "string",
+      "enum": [
+        "a-profissao",
+        "formacao",
+        "equipamentos"
+      ]
+    },
+    "categoriaDados": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ordem"
+      ],
+      "properties": {
+        "introducao": {
+          "$ref": "#/$defs/texto"
+        },
+        "ordem": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/slug"
+          }
+        }
+      }
+    },
+    "pauta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "arquivo",
+        "pesquisa",
+        "aprovacao",
+        "categorias"
+      ],
+      "properties": {
+        "arquivo": {
+          "$ref": "#/$defs/arquivo"
+        },
+        "pesquisa": {
+          "$ref": "#/$defs/arquivo"
+        },
+        "aprovacao": {
+          "$ref": "#/$defs/texto"
+        },
+        "nome_profissao": {
+          "$ref": "#/$defs/texto"
+        },
+        "introducao_profissao": {
+          "$ref": "#/$defs/texto"
+        },
+        "categorias": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "a-profissao",
+            "formacao",
+            "equipamentos"
+          ],
+          "properties": {
+            "a-profissao": {
+              "$ref": "#/$defs/categoriaDados"
+            },
+            "formacao": {
+              "$ref": "#/$defs/categoriaDados"
+            },
+            "equipamentos": {
+              "$ref": "#/$defs/categoriaDados"
+            }
+          }
+        }
+      }
+    },
+    "produto": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "modelo",
+        "natureza",
+        "links_aprovados"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/slug"
+        },
+        "modelo": {
+          "$ref": "#/$defs/texto"
+        },
+        "natureza": {
+          "type": "string",
+          "enum": [
+            "fisico",
+            "curso",
+            "livro"
+          ]
+        },
+        "links_aprovados": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^https://[^\\s]+$"
+          }
+        },
+        "review": {
+          "$ref": "#/$defs/rota"
+        }
+      }
+    },
+    "imagem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "caminho",
+        "origem",
+        "alt",
+        "tipo"
+      ],
+      "properties": {
+        "caminho": {
+          "$ref": "#/$defs/asset"
+        },
+        "arquivo_zip": {
+          "$ref": "#/$defs/arquivo"
+        },
+        "produto": {
+          "$ref": "#/$defs/slug"
+        },
+        "origem": {
+          "$ref": "#/$defs/texto"
+        },
+        "alt": {
+          "$ref": "#/$defs/texto"
+        },
+        "tipo": {
+          "type": "string",
+          "enum": [
+            "foto",
+            "representacao-editorial",
+            "editorial"
+          ]
+        },
+        "legenda": {
+          "$ref": "#/$defs/texto"
+        },
+        "destaque": {
+          "type": "boolean"
+        }
+      }
+    },
+    "materia": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "slug",
+        "titulo",
+        "tipo",
+        "categoria",
+        "intencao",
+        "consulta",
+        "conteudo",
+        "monetizada",
+        "produtos",
+        "imagens",
+        "links_internos"
+      ],
+      "properties": {
+        "slug": {
+          "$ref": "#/$defs/slug"
+        },
+        "titulo": {
+          "$ref": "#/$defs/texto"
+        },
+        "tipo": {
+          "type": "string",
+          "enum": [
+            "informativa",
+            "review",
+            "comparativo"
+          ]
+        },
+        "categoria": {
+          "$ref": "#/$defs/categoria"
+        },
+        "intencao": {
+          "$ref": "#/$defs/texto"
+        },
+        "consulta": {
+          "$ref": "#/$defs/texto"
+        },
+        "conteudo": {
+          "$ref": "#/$defs/arquivo"
+        },
+        "monetizada": {
+          "type": "boolean"
+        },
+        "produtos": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/produto"
+          }
+        },
+        "imagens": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/imagem"
+          }
+        },
+        "links_internos": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/rota"
+          }
+        },
+        "descricao": {
+          "$ref": "#/$defs/texto"
+        },
+        "abertura": {
+          "$ref": "#/$defs/texto"
+        },
+        "resumo": {
+          "$ref": "#/$defs/texto"
+        },
+        "objeto": {
+          "type": "string",
+          "enum": [
+            "geral",
+            "formacao",
+            "produto"
+          ]
+        },
+        "comerciais_relacionados": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/rota"
+          }
+        },
+        "fontes_externas": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^https://[^\\s]+$"
+          }
+        }
+      }
+    },
+    "dependencia": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "destino",
+        "arquivo_zip",
+        "aprovacao"
+      ],
+      "properties": {
+        "destino": {
+          "type": "string",
+          "enum": [
+            "/assets/img/logo-virada-propria.png",
+            "/empreendedorismo/"
+          ]
+        },
+        "arquivo_zip": {
+          "$ref": "#/$defs/arquivo"
+        },
+        "aprovacao": {
+          "$ref": "#/$defs/texto"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "modo": "simulacao",
+  "pacote_aceito": true,
+  "publicacao_liberada": false,
+  "arquivos_publicos_alterados": [],
+  "erros_entrada": [],
+  "plano": [
+    {
+      "tipo": "materia",
+      "rota": "/jardineiro/como-comecar/",
+      "acao": "atualizar",
+      "navegacao": [
+        "/jardineiro/a-profissao/",
+        "/jardineiro/"
+      ]
+    },
+    {
+      "tipo": "hub",
+      "rota": "/jardineiro/",
+      "acao": "atualizar"
+    },
+    {
+      "tipo": "categoria",
+      "rota": "/jardineiro/a-profissao/",
+      "acao": "criar",
+      "ordem": [
+        "como-comecar"
+      ]
+    },
+    {
+      "tipo": "categoria",
+      "rota": "/jardineiro/formacao/",
+      "acao": "criar",
+      "ordem": []
+    },
+    {
+      "tipo": "categoria",
+      "rota": "/jardineiro/equipamentos/",
+      "acao": "criar",
+      "ordem": []
+    }
+  ],
+  "qcs": {
+    "editorial": [
+      {
+        "codigo": "EDITORIAL_REVISAO",
+        "status": "pendente",
+        "referencia": "Manual 12.8; capítulos 2–5 e 8",
+        "detalhe": "Revisar pauta, pesquisa, intenção, redação, fatos e fontes. A aprovação declarada no manifest precisa de conferência."
+      }
+    ],
+    "comercial": [
+      {
+        "codigo": "COMERCIAL_REVISAO",
+        "status": "pendente",
+        "referencia": "Manual 12.8; capítulos 5–7 e 9",
+        "detalhe": "Conferir aprovação real, destino e distribuição dos links no HTML, CTAs, disclaimer e navegação renderizada."
+      }
+    ],
+    "tecnico": [
+      {
+        "codigo": "HUB_DADOS_PENDENTES",
+        "status": "reprovado",
+        "referencia": "Manual 6.3; 12.2",
+        "detalhe": "/jardineiro/"
+      },
+      {
+        "codigo": "CATEGORIA_DADOS_PENDENTES",
+        "status": "reprovado",
+        "referencia": "Manual 6.9; solicitação do usuário",
+        "detalhe": "/jardineiro/a-profissao/"
+      },
+      {
+        "codigo": "CATEGORIA_ROTA_AUSENTE",
+        "status": "reprovado",
+        "referencia": "Manual 6.9; 11.31",
+        "detalhe": "/jardineiro/a-profissao/"
+      },
+      {
+        "codigo": "CATEGORIA_DADOS_PENDENTES",
+        "status": "reprovado",
+        "referencia": "Manual 6.9; solicitação do usuário",
+        "detalhe": "/jardineiro/formacao/"
+      },
+      {
+        "codigo": "CATEGORIA_ROTA_AUSENTE",
+        "status": "reprovado",
+        "referencia": "Manual 6.9; 11.31",
+        "detalhe": "/jardineiro/formacao/"
+      },
+      {
+        "codigo": "CATEGORIA_DADOS_PENDENTES",
+        "status": "reprovado",
+        "referencia": "Manual 6.9; solicitação do usuário",
+        "detalhe": "/jardineiro/equipamentos/"
+      },
+      {
+        "codigo": "CATEGORIA_ROTA_AUSENTE",
+        "status": "reprovado",
+        "referencia": "Manual 6.9; 11.31",
+        "detalhe": "/jardineiro/equipamentos/"
+      },
+      {
+        "codigo": "DEPENDENCIA_ROTA_AUSENTE",
+        "status": "reprovado",
+        "referencia": "Manual 1.2; 11.31",
+        "detalhe": "/empreendedorismo/"
+      },
+      {
+        "codigo": "LOGO_AUSENTE",
+        "status": "reprovado",
+        "referencia": "Manual 11.32",
+        "detalhe": "/assets/img/logo-virada-propria.png"
+      },
+      {
+        "codigo": "PAGES_ARTEFATO_PENDENTE",
+        "status": "pendente",
+        "referencia": "Solicitação do usuário: área interna fora do site",
+        "detalhe": "Revalidar configuração remota e ausência de _producao/ no artefato antes de publicar; AGENTS.md também precisará de exclusão explícita."
+      },
+      {
+        "codigo": "IMAGENS_REVISAO",
+        "status": "pendente",
+        "referencia": "Manual capítulos 5 e 10; 12.6",
+        "detalhe": "como-comecar: confirmar necessidade, origem aprovada, modelo exato, variedade, enquadramento, alt e otimização."
+      },
+      {
+        "codigo": "TECNICO_REVISAO",
+        "status": "pendente",
+        "referencia": "Manual 12.8; capítulos 1, 10 e 11",
+        "detalhe": "Montagem/inspeção do HTML, SEO técnico, Analytics, links, layout, performance e responsividade ainda não implementadas."
+      }
+    ]
+  },
+  "versao_canonica": "1.1",
+  "git": {
+    "branch": "automacao-publicacao-v2",
+    "origin": "https://github.com/Virada-Propria/virada-propria.github.io.git",
+    "head": "bf9de882895c16af720b38b16ed704804d2c92b2",
+    "status": "?? AGENTS.md\n?? _producao/"
+  },
+  "zip_sha256": "39979231c0c6fa976c2d4c664ad96cb34e4a11c4e56dedf7b1ab6d26a38de703",
+  "lote": "demonstracao-jardineiro",
+  "bloqueios": 9,
+  "pendencias": 5
+}

@@ -1,0 +1,3 @@
+# Preserve canonical bytes so vigente.json hashes survive Windows checkouts.
+canonico/*.html -text
+canonico/*.docx -text

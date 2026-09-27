@@ -1,0 +1,174 @@
+{
+  "id": "lote-tecnico-valido",
+  "versao_canonica": "1.1",
+  "profissao": "profissao-teste",
+  "pauta": {
+    "arquivo": "dados/pauta.txt",
+    "pesquisa": "dados/pesquisa.txt",
+    "aprovacao": "Fixture técnico, não aprovado para publicação",
+    "nome_profissao": "Profissão de teste",
+    "introducao_profissao": "Cenário sintético para testar a arquitetura e a navegação.",
+    "categorias": {
+      "a-profissao": {
+        "introducao": "Conteúdos sintéticos de a-profissao para conferir a automação.",
+        "ordem": [
+          "inicio"
+        ]
+      },
+      "formacao": {
+        "introducao": "Conteúdos sintéticos de formacao para conferir a automação.",
+        "ordem": [
+          "capacitacao"
+        ]
+      },
+      "equipamentos": {
+        "introducao": "Conteúdos sintéticos de equipamentos para conferir a automação.",
+        "ordem": [
+          "modelo-a",
+          "opcoes"
+        ]
+      }
+    }
+  },
+  "materias": [
+    {
+      "slug": "inicio",
+      "titulo": "Início da atividade de teste",
+      "tipo": "informativa",
+      "categoria": "a-profissao",
+      "intencao": "Exercitar o fluxo técnico de inicio",
+      "consulta": "inicio",
+      "conteudo": "materias/inicio.html",
+      "monetizada": false,
+      "produtos": [],
+      "imagens": [],
+      "links_internos": [
+        "/profissao-teste/modelo-a/"
+      ],
+      "descricao": "Dados sintéticos para validar a montagem de inicio.",
+      "abertura": "Exemplo técnico isolado de inicio. Não constitui orientação profissional.",
+      "objeto": "geral",
+      "comerciais_relacionados": [
+        "/profissao-teste/modelo-a/"
+      ]
+    },
+    {
+      "slug": "capacitacao",
+      "titulo": "Capacitação no cenário de teste",
+      "tipo": "informativa",
+      "categoria": "formacao",
+      "intencao": "Exercitar o fluxo técnico de capacitacao",
+      "consulta": "capacitacao",
+      "conteudo": "materias/capacitacao.html",
+      "monetizada": false,
+      "produtos": [],
+      "imagens": [],
+      "links_internos": [],
+      "descricao": "Dados sintéticos para validar a montagem de capacitacao.",
+      "abertura": "Exemplo técnico isolado de capacitacao. Não constitui orientação profissional.",
+      "objeto": "formacao"
+    },
+    {
+      "slug": "modelo-a",
+      "titulo": "Objeto A no cenário de teste",
+      "tipo": "review",
+      "categoria": "equipamentos",
+      "intencao": "Exercitar o fluxo técnico de modelo-a",
+      "consulta": "modelo-a",
+      "conteudo": "materias/modelo-a.html",
+      "monetizada": true,
+      "produtos": [
+        {
+          "id": "modelo-a",
+          "modelo": "Objeto de teste A",
+          "natureza": "fisico",
+          "links_aprovados": [
+            "https://example.com/modelo-a"
+          ],
+          "review": "/profissao-teste/modelo-a/"
+        }
+      ],
+      "imagens": [
+        {
+          "caminho": "/assets/img/produtos/profissao-teste/modelo-a-0.png",
+          "arquivo_zip": "imagens/modelo-a-0.png",
+          "produto": "modelo-a",
+          "origem": "Fixture sintético para teste de software; não é fotografia de produto",
+          "alt": "Objeto de teste modelo-a, vista 0",
+          "tipo": "representacao-editorial"
+        },
+        {
+          "caminho": "/assets/img/produtos/profissao-teste/modelo-a-1.png",
+          "arquivo_zip": "imagens/modelo-a-1.png",
+          "produto": "modelo-a",
+          "origem": "Fixture sintético para teste de software; não é fotografia de produto",
+          "alt": "Objeto de teste modelo-a, vista 1",
+          "tipo": "representacao-editorial"
+        },
+        {
+          "caminho": "/assets/img/produtos/profissao-teste/modelo-a-2.png",
+          "arquivo_zip": "imagens/modelo-a-2.png",
+          "produto": "modelo-a",
+          "origem": "Fixture sintético para teste de software; não é fotografia de produto",
+          "alt": "Objeto de teste modelo-a, vista 2",
+          "tipo": "representacao-editorial"
+        }
+      ],
+      "links_internos": [],
+      "descricao": "Dados sintéticos para validar a montagem de modelo-a.",
+      "abertura": "Exemplo técnico isolado de modelo-a. Não constitui orientação profissional.",
+      "objeto": "produto"
+    },
+    {
+      "slug": "opcoes",
+      "titulo": "Opções do cenário de teste",
+      "tipo": "comparativo",
+      "categoria": "equipamentos",
+      "intencao": "Exercitar o fluxo técnico de opcoes",
+      "consulta": "opcoes",
+      "conteudo": "materias/opcoes.html",
+      "monetizada": true,
+      "produtos": [
+        {
+          "id": "modelo-a",
+          "modelo": "Objeto de teste A",
+          "natureza": "fisico",
+          "links_aprovados": [
+            "https://example.com/modelo-a"
+          ],
+          "review": "/profissao-teste/modelo-a/"
+        },
+        {
+          "id": "modelo-b",
+          "modelo": "Objeto de teste B",
+          "natureza": "fisico",
+          "links_aprovados": [
+            "https://example.com/modelo-b"
+          ]
+        }
+      ],
+      "imagens": [
+        {
+          "caminho": "/assets/img/produtos/profissao-teste/modelo-a-0.png",
+          "arquivo_zip": "imagens/modelo-a-0.png",
+          "produto": "modelo-a",
+          "origem": "Fixture sintético para teste de software; não é fotografia de produto",
+          "alt": "Objeto de teste modelo-a, vista 0",
+          "tipo": "representacao-editorial"
+        },
+        {
+          "caminho": "/assets/img/produtos/profissao-teste/modelo-b-0.png",
+          "arquivo_zip": "imagens/modelo-b-0.png",
+          "produto": "modelo-b",
+          "origem": "Fixture sintético para teste de software; não é fotografia de produto",
+          "alt": "Objeto de teste modelo-b, vista 0",
+          "tipo": "representacao-editorial"
+        }
+      ],
+      "links_internos": [],
+      "descricao": "Dados sintéticos para validar a montagem de opcoes.",
+      "abertura": "Exemplo técnico isolado de opcoes. Não constitui orientação profissional.",
+      "objeto": "produto"
+    }
+  ]
+}

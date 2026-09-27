@@ -1,0 +1,165 @@
+{
+  "checks": [
+    {
+      "route": "/profissao-teste/inicio/",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": [],
+      "headerPosition": "static",
+      "h1": 1,
+      "screenshot": "screenshots/0-390.png",
+      "ok": true
+    },
+    {
+      "route": "/profissao-teste/capacitacao/",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": [],
+      "headerPosition": "static",
+      "h1": 1,
+      "screenshot": "screenshots/1-390.png",
+      "ok": true
+    },
+    {
+      "route": "/profissao-teste/modelo-a/",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": [],
+      "headerPosition": "static",
+      "h1": 1,
+      "screenshot": "screenshots/2-390.png",
+      "ok": true
+    },
+    {
+      "route": "/profissao-teste/opcoes/",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": [],
+      "headerPosition": "static",
+      "h1": 1,
+      "screenshot": "screenshots/3-390.png",
+      "ok": true
+    },
+    {
+      "route": "/profissao-teste/",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": [],
+      "headerPosition": "static",
+      "h1": 1,
+      "screenshot": "screenshots/4-390.png",
+      "ok": true
+    },
+    {
+      "route": "/profissao-teste/a-profissao/",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": [],
+      "headerPosition": "static",
+      "h1": 1,
+      "screenshot": "screenshots/5-390.png",
+      "ok": true
+    },
+    {
+      "route": "/profissao-teste/formacao/",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": [],
+      "headerPosition": "static",
+      "h1": 1,
+      "screenshot": "screenshots/6-390.png",
+      "ok": true
+    },
+    {
+      "route": "/profissao-teste/equipamentos/",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": [],
+      "headerPosition": "static",
+      "h1": 1,
+      "screenshot": "screenshots/7-390.png",
+      "ok": true
+    },
+    {
+      "route": "/profissao-teste/inicio/",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": [],
+      "headerPosition": "static",
+      "h1": 1,
+      "screenshot": "screenshots/0-1440.png",
+      "ok": true
+    },
+    {
+      "route": "/profissao-teste/capacitacao/",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": [],
+      "headerPosition": "static",
+      "h1": 1,
+      "screenshot": "screenshots/1-1440.png",
+      "ok": true
+    },
+    {
+      "route": "/profissao-teste/modelo-a/",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": [],
+      "headerPosition": "static",
+      "h1": 1,
+      "screenshot": "screenshots/2-1440.png",
+      "ok": true
+    },
+    {
+      "route": "/profissao-teste/opcoes/",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": [],
+      "headerPosition": "static",
+      "h1": 1,
+      "screenshot": "screenshots/3-1440.png",
+      "ok": true
+    },
+    {
+      "route": "/profissao-teste/",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": [],
+      "headerPosition": "static",
+      "h1": 1,
+      "screenshot": "screenshots/4-1440.png",
+      "ok": true
+    },
+    {
+      "route": "/profissao-teste/a-profissao/",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": [],
+      "headerPosition": "static",
+      "h1": 1,
+      "screenshot": "screenshots/5-1440.png",
+      "ok": true
+    },
+    {
+      "route": "/profissao-teste/formacao/",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": [],
+      "headerPosition": "static",
+      "h1": 1,
+      "screenshot": "screenshots/6-1440.png",
+      "ok": true
+    },
+    {
+      "route": "/profissao-teste/equipamentos/",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": [],
+      "headerPosition": "static",
+      "h1": 1,
+      "screenshot": "screenshots/7-1440.png",
+      "ok": true
+    }
+  ],
+  "note": "Rede externa bloqueada no teste; fonte pode usar fallback. Capturas ainda exigem inspeção visual."
+}

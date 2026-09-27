@@ -1,0 +1,23 @@
+{
+  "modo": "simulacao",
+  "pacote_aceito": false,
+  "publicacao_liberada": false,
+  "arquivos_publicos_alterados": [],
+  "erros_entrada": [
+    "Caminho inseguro: ../escape.txt"
+  ],
+  "git": {
+    "branch": "automacao-publicacao-v2",
+    "origin": "https://github.com/Virada-Propria/virada-propria.github.io.git",
+    "head": "bf9de882895c16af720b38b16ed704804d2c92b2",
+    "status": "?? AGENTS.md\n?? _producao/"
+  },
+  "qcs": {
+    "editorial": [],
+    "comercial": [],
+    "tecnico": []
+  },
+  "plano": [],
+  "revisao": [],
+  "concluido": false
+}

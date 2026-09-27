@@ -1,0 +1,11 @@
+{
+  "versao": "1.1",
+  "manual": {
+    "arquivo": "Manual_Mestre_Virada_Propria_v1.1_CANONICO.docx",
+    "sha256": "dd756ef4ff5d5470cb138368625dd43174e76bd81201203484db5483b45b7b99"
+  },
+  "html_base": {
+    "arquivo": "HTML_BASE_VIRADA_PROPRIA_v1.1_CANONICO.html",
+    "sha256": "cc540e708f9910b22665f4b129a0dcc1b843ba7f8e94b28159fca03bb8ef7bbd"
+  }
+}

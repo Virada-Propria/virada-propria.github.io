@@ -1,0 +1,28 @@
+{
+  "id": "demonstracao-jardineiro",
+  "versao_canonica": "1.1",
+  "profissao": "jardineiro",
+  "pauta": {
+    "arquivo": "dados/pauta.txt",
+    "pesquisa": "dados/pesquisa.txt",
+    "aprovacao": "DEMONSTRAÇÃO TÉCNICA: sem aprovação editorial para publicação",
+    "categorias": {
+      "a-profissao": {"ordem": ["como-comecar"]},
+      "formacao": {"ordem": []},
+      "equipamentos": {"ordem": []}
+    }
+  },
+  "materias": [{
+    "slug": "como-comecar",
+    "titulo": "Como começar como jardineiro",
+    "tipo": "informativa",
+    "categoria": "a-profissao",
+    "intencao": "Entender como começar na atividade",
+    "consulta": "como começar como jardineiro",
+    "conteudo": "materias/como-comecar.html",
+    "monetizada": false,
+    "produtos": [],
+    "imagens": [],
+    "links_internos": ["/jardineiro/"]
+  }]
+}

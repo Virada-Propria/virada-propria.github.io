@@ -1,0 +1,2256 @@
+{
+  "modo": "simulacao",
+  "pacote_aceito": true,
+  "publicacao_liberada": false,
+  "arquivos_publicos_alterados": [],
+  "erros_entrada": [],
+  "git": {
+    "branch": "automacao-publicacao-v2",
+    "origin": "https://github.com/Virada-Propria/virada-propria.github.io.git",
+    "head": "bf9de882895c16af720b38b16ed704804d2c92b2",
+    "status": "?? AGENTS.md\n?? _producao/"
+  },
+  "qcs": {
+    "editorial": [
+      {
+        "codigo": "VOZ_EDITORIAL",
+        "status": "aprovado",
+        "referencia": "Manual 2.9",
+        "detalhe": "Sem preferência pessoal explícita"
+      },
+      {
+        "codigo": "TERMOS_INTERNOS",
+        "status": "aprovado",
+        "referencia": "Manual 4.1",
+        "detalhe": "Classificação de funil não aparece no corpo"
+      },
+      {
+        "codigo": "CONTEUDO_PRESENTE",
+        "status": "aprovado",
+        "referencia": "Manual 2.1; 12.4",
+        "detalhe": "inicio"
+      },
+      {
+        "codigo": "CATEGORIA",
+        "status": "aprovado",
+        "referencia": "Manual 6.8",
+        "detalhe": "a-profissao"
+      },
+      {
+        "codigo": "VOZ_EDITORIAL",
+        "status": "aprovado",
+        "referencia": "Manual 2.9",
+        "detalhe": "Sem preferência pessoal explícita"
+      },
+      {
+        "codigo": "TERMOS_INTERNOS",
+        "status": "aprovado",
+        "referencia": "Manual 4.1",
+        "detalhe": "Classificação de funil não aparece no corpo"
+      },
+      {
+        "codigo": "CONTEUDO_PRESENTE",
+        "status": "aprovado",
+        "referencia": "Manual 2.1; 12.4",
+        "detalhe": "capacitacao"
+      },
+      {
+        "codigo": "CATEGORIA",
+        "status": "aprovado",
+        "referencia": "Manual 6.8",
+        "detalhe": "formacao"
+      },
+      {
+        "codigo": "VOZ_EDITORIAL",
+        "status": "aprovado",
+        "referencia": "Manual 2.9",
+        "detalhe": "Sem preferência pessoal explícita"
+      },
+      {
+        "codigo": "TERMOS_INTERNOS",
+        "status": "aprovado",
+        "referencia": "Manual 4.1",
+        "detalhe": "Classificação de funil não aparece no corpo"
+      },
+      {
+        "codigo": "CONTEUDO_PRESENTE",
+        "status": "aprovado",
+        "referencia": "Manual 2.1; 12.4",
+        "detalhe": "modelo-a"
+      },
+      {
+        "codigo": "CATEGORIA",
+        "status": "aprovado",
+        "referencia": "Manual 6.8",
+        "detalhe": "equipamentos"
+      },
+      {
+        "codigo": "VOZ_EDITORIAL",
+        "status": "aprovado",
+        "referencia": "Manual 2.9",
+        "detalhe": "Sem preferência pessoal explícita"
+      },
+      {
+        "codigo": "TERMOS_INTERNOS",
+        "status": "aprovado",
+        "referencia": "Manual 4.1",
+        "detalhe": "Classificação de funil não aparece no corpo"
+      },
+      {
+        "codigo": "CONTEUDO_PRESENTE",
+        "status": "aprovado",
+        "referencia": "Manual 2.1; 12.4",
+        "detalhe": "opcoes"
+      },
+      {
+        "codigo": "CATEGORIA",
+        "status": "aprovado",
+        "referencia": "Manual 6.8",
+        "detalhe": "equipamentos"
+      }
+    ],
+    "comercial": [
+      {
+        "codigo": "ANCORA_DESCRITIVA",
+        "status": "aprovado",
+        "referencia": "Manual 7.4",
+        "detalhe": "objeto A do cenário de teste"
+      },
+      {
+        "codigo": "LINK_CONTEXTUAL_DECLARADO",
+        "status": "aprovado",
+        "referencia": "Manual 7.2",
+        "detalhe": "/profissao-teste/modelo-a/"
+      },
+      {
+        "codigo": "CAMINHO_COMERCIAL",
+        "status": "aprovado",
+        "referencia": "Manual 2.14; 7.6",
+        "detalhe": "/profissao-teste/modelo-a/"
+      },
+      {
+        "codigo": "NAVEGACAO_ESTRUTURAL",
+        "status": "aprovado",
+        "referencia": "Manual 6.10–6.12",
+        "detalhe": "['/profissao-teste/a-profissao/', '/profissao-teste/']"
+      },
+      {
+        "codigo": "NAVEGACAO_ESTRUTURAL",
+        "status": "aprovado",
+        "referencia": "Manual 6.10–6.12",
+        "detalhe": "['/profissao-teste/formacao/', '/profissao-teste/']"
+      },
+      {
+        "codigo": "LINK_EXTERNO_DECLARADO",
+        "status": "aprovado",
+        "referencia": "Manual 9.5; 11.25",
+        "detalhe": "https://example.com/modelo-a"
+      },
+      {
+        "codigo": "AFILIADO_APROVADO",
+        "status": "aprovado",
+        "referencia": "Manual 9.5–9.6",
+        "detalhe": "https://example.com/modelo-a"
+      },
+      {
+        "codigo": "SPONSORED",
+        "status": "aprovado",
+        "referencia": "Manual 9.4",
+        "detalhe": "https://example.com/modelo-a"
+      },
+      {
+        "codigo": "NOOPENER",
+        "status": "aprovado",
+        "referencia": "Manual 11.26",
+        "detalhe": "https://example.com/modelo-a"
+      },
+      {
+        "codigo": "ANCORA_DESCRITIVA",
+        "status": "aprovado",
+        "referencia": "Manual 7.4",
+        "detalhe": "Ver opção de teste"
+      },
+      {
+        "codigo": "LINK_EXTERNO_DECLARADO",
+        "status": "aprovado",
+        "referencia": "Manual 9.5; 11.25",
+        "detalhe": "https://example.com/modelo-a"
+      },
+      {
+        "codigo": "AFILIADO_APROVADO",
+        "status": "aprovado",
+        "referencia": "Manual 9.5–9.6",
+        "detalhe": "https://example.com/modelo-a"
+      },
+      {
+        "codigo": "SPONSORED",
+        "status": "aprovado",
+        "referencia": "Manual 9.4",
+        "detalhe": "https://example.com/modelo-a"
+      },
+      {
+        "codigo": "NOOPENER",
+        "status": "aprovado",
+        "referencia": "Manual 11.26",
+        "detalhe": "https://example.com/modelo-a"
+      },
+      {
+        "codigo": "ANCORA_DESCRITIVA",
+        "status": "aprovado",
+        "referencia": "Manual 7.4",
+        "detalhe": "Ver opção de teste"
+      },
+      {
+        "codigo": "LINK_EXTERNO_DECLARADO",
+        "status": "aprovado",
+        "referencia": "Manual 9.5; 11.25",
+        "detalhe": "https://example.com/modelo-a"
+      },
+      {
+        "codigo": "AFILIADO_APROVADO",
+        "status": "aprovado",
+        "referencia": "Manual 9.5–9.6",
+        "detalhe": "https://example.com/modelo-a"
+      },
+      {
+        "codigo": "SPONSORED",
+        "status": "aprovado",
+        "referencia": "Manual 9.4",
+        "detalhe": "https://example.com/modelo-a"
+      },
+      {
+        "codigo": "NOOPENER",
+        "status": "aprovado",
+        "referencia": "Manual 11.26",
+        "detalhe": "https://example.com/modelo-a"
+      },
+      {
+        "codigo": "ANCORA_DESCRITIVA",
+        "status": "aprovado",
+        "referencia": "Manual 7.4",
+        "detalhe": "Ver opção de teste"
+      },
+      {
+        "codigo": "LINKS_POR_PRODUTO",
+        "status": "aprovado",
+        "referencia": "Manual 5.10; 5.20",
+        "detalhe": "modelo-a: 3/3"
+      },
+      {
+        "codigo": "NAVEGACAO_ESTRUTURAL",
+        "status": "aprovado",
+        "referencia": "Manual 6.10–6.12",
+        "detalhe": "['/profissao-teste/opcoes/', '/profissao-teste/equipamentos/', '/profissao-teste/']"
+      },
+      {
+        "codigo": "ANCORA_DESCRITIVA",
+        "status": "aprovado",
+        "referencia": "Manual 7.4",
+        "detalhe": "Análise do objeto A"
+      },
+      {
+        "codigo": "LINK_EXTERNO_DECLARADO",
+        "status": "aprovado",
+        "referencia": "Manual 9.5; 11.25",
+        "detalhe": "https://example.com/modelo-a"
+      },
+      {
+        "codigo": "AFILIADO_APROVADO",
+        "status": "aprovado",
+        "referencia": "Manual 9.5–9.6",
+        "detalhe": "https://example.com/modelo-a"
+      },
+      {
+        "codigo": "SPONSORED",
+        "status": "aprovado",
+        "referencia": "Manual 9.4",
+        "detalhe": "https://example.com/modelo-a"
+      },
+      {
+        "codigo": "NOOPENER",
+        "status": "aprovado",
+        "referencia": "Manual 11.26",
+        "detalhe": "https://example.com/modelo-a"
+      },
+      {
+        "codigo": "ANCORA_DESCRITIVA",
+        "status": "aprovado",
+        "referencia": "Manual 7.4",
+        "detalhe": "Ver opção de teste"
+      },
+      {
+        "codigo": "LINK_EXTERNO_DECLARADO",
+        "status": "aprovado",
+        "referencia": "Manual 9.5; 11.25",
+        "detalhe": "https://example.com/modelo-b"
+      },
+      {
+        "codigo": "AFILIADO_APROVADO",
+        "status": "aprovado",
+        "referencia": "Manual 9.5–9.6",
+        "detalhe": "https://example.com/modelo-b"
+      },
+      {
+        "codigo": "SPONSORED",
+        "status": "aprovado",
+        "referencia": "Manual 9.4",
+        "detalhe": "https://example.com/modelo-b"
+      },
+      {
+        "codigo": "NOOPENER",
+        "status": "aprovado",
+        "referencia": "Manual 11.26",
+        "detalhe": "https://example.com/modelo-b"
+      },
+      {
+        "codigo": "ANCORA_DESCRITIVA",
+        "status": "aprovado",
+        "referencia": "Manual 7.4",
+        "detalhe": "Ver opção de teste"
+      },
+      {
+        "codigo": "LINKS_POR_PRODUTO",
+        "status": "aprovado",
+        "referencia": "Manual 5.10; 5.20",
+        "detalhe": "modelo-a: 1/1"
+      },
+      {
+        "codigo": "LINK_REVIEW",
+        "status": "aprovado",
+        "referencia": "Manual 5.19",
+        "detalhe": "/profissao-teste/modelo-a/"
+      },
+      {
+        "codigo": "LINKS_POR_PRODUTO",
+        "status": "aprovado",
+        "referencia": "Manual 5.10; 5.20",
+        "detalhe": "modelo-b: 1/1"
+      },
+      {
+        "codigo": "NAVEGACAO_ESTRUTURAL",
+        "status": "aprovado",
+        "referencia": "Manual 6.10–6.12",
+        "detalhe": "['/profissao-teste/equipamentos/', '/profissao-teste/']"
+      },
+      {
+        "codigo": "HTTP_EXTERNO",
+        "status": "pendente",
+        "referencia": "Manual 11.25",
+        "detalhe": "https://example.com/modelo-a: executar --online"
+      },
+      {
+        "codigo": "HTTP_EXTERNO",
+        "status": "pendente",
+        "referencia": "Manual 11.25",
+        "detalhe": "https://example.com/modelo-b: executar --online"
+      }
+    ],
+    "tecnico": [
+      {
+        "codigo": "LOGO_AUSENTE",
+        "status": "reprovado",
+        "referencia": "Manual 11.33; 12.20",
+        "detalhe": "/assets/img/logo-virada-propria.png"
+      },
+      {
+        "codigo": "ESTRUTURA_HTML",
+        "status": "aprovado",
+        "referencia": "Manual 11.2",
+        "detalhe": "/profissao-teste/inicio/: doctype e idioma"
+      },
+      {
+        "codigo": "CHARSET_VIEWPORT",
+        "status": "aprovado",
+        "referencia": "Manual 11.2",
+        "detalhe": "/profissao-teste/inicio/: charset e viewport"
+      },
+      {
+        "codigo": "TITLE",
+        "status": "aprovado",
+        "referencia": "Manual 11.4",
+        "detalhe": "/profissao-teste/inicio/: Início da atividade de teste | Virada Própria"
+      },
+      {
+        "codigo": "META_DESCRIPTION",
+        "status": "aprovado",
+        "referencia": "Manual 11.5",
+        "detalhe": "/profissao-teste/inicio/: Dados sintéticos para validar a montagem de inicio."
+      },
+      {
+        "codigo": "H1",
+        "status": "aprovado",
+        "referencia": "Manual 8.5",
+        "detalhe": "/profissao-teste/inicio/: um H1"
+      },
+      {
+        "codigo": "HEADINGS",
+        "status": "aprovado",
+        "referencia": "Manual 11.27",
+        "detalhe": "/profissao-teste/inicio/: [1, 2]"
+      },
+      {
+        "codigo": "ROBOTS",
+        "status": "aprovado",
+        "referencia": "Manual 11.6",
+        "detalhe": "/profissao-teste/inicio/: robots público"
+      },
+      {
+        "codigo": "CANONICAL",
+        "status": "aprovado",
+        "referencia": "Manual 11.7",
+        "detalhe": "/profissao-teste/inicio/: /profissao-teste/inicio/"
+      },
+      {
+        "codigo": "OPEN_GRAPH",
+        "status": "aprovado",
+        "referencia": "Manual 11.9",
+        "detalhe": "/profissao-teste/inicio/: metadados sociais"
+      },
+      {
+        "codigo": "JSON_LD",
+        "status": "aprovado",
+        "referencia": "Manual 11.10–11.12",
+        "detalhe": "/profissao-teste/inicio/: schema coerente e sem datas"
+      },
+      {
+        "codigo": "DATAS_PUBLICAS",
+        "status": "aprovado",
+        "referencia": "Manual 11.11",
+        "detalhe": "/profissao-teste/inicio/: sem datas editoriais públicas"
+      },
+      {
+        "codigo": "ANALYTICS",
+        "status": "aprovado",
+        "referencia": "Manual 11.3",
+        "detalhe": "/profissao-teste/inicio/: tag oficial"
+      },
+      {
+        "codigo": "CSS_CANONICO",
+        "status": "aprovado",
+        "referencia": "Manual 1; 11.34",
+        "detalhe": "/profissao-teste/inicio/: CSS idêntico à base"
+      },
+      {
+        "codigo": "MENU_GLOBAL",
+        "status": "aprovado",
+        "referencia": "Manual 1.2",
+        "detalhe": "/profissao-teste/inicio/: menu global"
+      },
+      {
+        "codigo": "DISCLAIMER",
+        "status": "aprovado",
+        "referencia": "Manual 1.10; 9.16",
+        "detalhe": "/profissao-teste/inicio/: aviso único no rodapé"
+      },
+      {
+        "codigo": "PLACEHOLDERS",
+        "status": "aprovado",
+        "referencia": "Manual 11.36",
+        "detalhe": "/profissao-teste/inicio/: sem campos/template remanescentes"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/inicio/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "reprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/inicio/: /assets/img/logo-virada-propria.png"
+      },
+      {
+        "codigo": "IMAGEM_ATRIBUTOS",
+        "status": "reprovado",
+        "referencia": "Manual 10.10; 10.13",
+        "detalhe": "/profissao-teste/inicio/: /assets/img/logo-virada-propria.png"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/inicio/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "reprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/inicio/: /empreendedorismo/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/inicio/: /profissoes/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/inicio/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/inicio/: /profissoes/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/inicio/: /profissao-teste/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/inicio/: /profissao-teste/a-profissao/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/inicio/: /profissao-teste/modelo-a/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/inicio/: /profissao-teste/a-profissao/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/inicio/: /profissao-teste/"
+      },
+      {
+        "codigo": "ESTRUTURA_HTML",
+        "status": "aprovado",
+        "referencia": "Manual 11.2",
+        "detalhe": "/profissao-teste/capacitacao/: doctype e idioma"
+      },
+      {
+        "codigo": "CHARSET_VIEWPORT",
+        "status": "aprovado",
+        "referencia": "Manual 11.2",
+        "detalhe": "/profissao-teste/capacitacao/: charset e viewport"
+      },
+      {
+        "codigo": "TITLE",
+        "status": "aprovado",
+        "referencia": "Manual 11.4",
+        "detalhe": "/profissao-teste/capacitacao/: Capacitação no cenário de teste | Virada Própria"
+      },
+      {
+        "codigo": "META_DESCRIPTION",
+        "status": "aprovado",
+        "referencia": "Manual 11.5",
+        "detalhe": "/profissao-teste/capacitacao/: Dados sintéticos para validar a montagem de capacitacao."
+      },
+      {
+        "codigo": "H1",
+        "status": "aprovado",
+        "referencia": "Manual 8.5",
+        "detalhe": "/profissao-teste/capacitacao/: um H1"
+      },
+      {
+        "codigo": "HEADINGS",
+        "status": "aprovado",
+        "referencia": "Manual 11.27",
+        "detalhe": "/profissao-teste/capacitacao/: [1, 2]"
+      },
+      {
+        "codigo": "ROBOTS",
+        "status": "aprovado",
+        "referencia": "Manual 11.6",
+        "detalhe": "/profissao-teste/capacitacao/: robots público"
+      },
+      {
+        "codigo": "CANONICAL",
+        "status": "aprovado",
+        "referencia": "Manual 11.7",
+        "detalhe": "/profissao-teste/capacitacao/: /profissao-teste/capacitacao/"
+      },
+      {
+        "codigo": "OPEN_GRAPH",
+        "status": "aprovado",
+        "referencia": "Manual 11.9",
+        "detalhe": "/profissao-teste/capacitacao/: metadados sociais"
+      },
+      {
+        "codigo": "JSON_LD",
+        "status": "aprovado",
+        "referencia": "Manual 11.10–11.12",
+        "detalhe": "/profissao-teste/capacitacao/: schema coerente e sem datas"
+      },
+      {
+        "codigo": "DATAS_PUBLICAS",
+        "status": "aprovado",
+        "referencia": "Manual 11.11",
+        "detalhe": "/profissao-teste/capacitacao/: sem datas editoriais públicas"
+      },
+      {
+        "codigo": "ANALYTICS",
+        "status": "aprovado",
+        "referencia": "Manual 11.3",
+        "detalhe": "/profissao-teste/capacitacao/: tag oficial"
+      },
+      {
+        "codigo": "CSS_CANONICO",
+        "status": "aprovado",
+        "referencia": "Manual 1; 11.34",
+        "detalhe": "/profissao-teste/capacitacao/: CSS idêntico à base"
+      },
+      {
+        "codigo": "MENU_GLOBAL",
+        "status": "aprovado",
+        "referencia": "Manual 1.2",
+        "detalhe": "/profissao-teste/capacitacao/: menu global"
+      },
+      {
+        "codigo": "DISCLAIMER",
+        "status": "aprovado",
+        "referencia": "Manual 1.10; 9.16",
+        "detalhe": "/profissao-teste/capacitacao/: aviso único no rodapé"
+      },
+      {
+        "codigo": "PLACEHOLDERS",
+        "status": "aprovado",
+        "referencia": "Manual 11.36",
+        "detalhe": "/profissao-teste/capacitacao/: sem campos/template remanescentes"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/capacitacao/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "reprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/capacitacao/: /assets/img/logo-virada-propria.png"
+      },
+      {
+        "codigo": "IMAGEM_ATRIBUTOS",
+        "status": "reprovado",
+        "referencia": "Manual 10.10; 10.13",
+        "detalhe": "/profissao-teste/capacitacao/: /assets/img/logo-virada-propria.png"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/capacitacao/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "reprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/capacitacao/: /empreendedorismo/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/capacitacao/: /profissoes/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/capacitacao/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/capacitacao/: /profissoes/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/capacitacao/: /profissao-teste/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/capacitacao/: /profissao-teste/formacao/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/capacitacao/: /profissao-teste/formacao/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/capacitacao/: /profissao-teste/"
+      },
+      {
+        "codigo": "ESTRUTURA_HTML",
+        "status": "aprovado",
+        "referencia": "Manual 11.2",
+        "detalhe": "/profissao-teste/modelo-a/: doctype e idioma"
+      },
+      {
+        "codigo": "CHARSET_VIEWPORT",
+        "status": "aprovado",
+        "referencia": "Manual 11.2",
+        "detalhe": "/profissao-teste/modelo-a/: charset e viewport"
+      },
+      {
+        "codigo": "TITLE",
+        "status": "aprovado",
+        "referencia": "Manual 11.4",
+        "detalhe": "/profissao-teste/modelo-a/: Objeto A no cenário de teste | Virada Própria"
+      },
+      {
+        "codigo": "META_DESCRIPTION",
+        "status": "aprovado",
+        "referencia": "Manual 11.5",
+        "detalhe": "/profissao-teste/modelo-a/: Dados sintéticos para validar a montagem de modelo-a."
+      },
+      {
+        "codigo": "H1",
+        "status": "aprovado",
+        "referencia": "Manual 8.5",
+        "detalhe": "/profissao-teste/modelo-a/: um H1"
+      },
+      {
+        "codigo": "HEADINGS",
+        "status": "aprovado",
+        "referencia": "Manual 11.27",
+        "detalhe": "/profissao-teste/modelo-a/: [1, 2, 2, 3, 3, 3]"
+      },
+      {
+        "codigo": "ROBOTS",
+        "status": "aprovado",
+        "referencia": "Manual 11.6",
+        "detalhe": "/profissao-teste/modelo-a/: robots público"
+      },
+      {
+        "codigo": "CANONICAL",
+        "status": "aprovado",
+        "referencia": "Manual 11.7",
+        "detalhe": "/profissao-teste/modelo-a/: /profissao-teste/modelo-a/"
+      },
+      {
+        "codigo": "OPEN_GRAPH",
+        "status": "aprovado",
+        "referencia": "Manual 11.9",
+        "detalhe": "/profissao-teste/modelo-a/: metadados sociais"
+      },
+      {
+        "codigo": "JSON_LD",
+        "status": "aprovado",
+        "referencia": "Manual 11.10–11.12",
+        "detalhe": "/profissao-teste/modelo-a/: schema coerente e sem datas"
+      },
+      {
+        "codigo": "DATAS_PUBLICAS",
+        "status": "aprovado",
+        "referencia": "Manual 11.11",
+        "detalhe": "/profissao-teste/modelo-a/: sem datas editoriais públicas"
+      },
+      {
+        "codigo": "ANALYTICS",
+        "status": "aprovado",
+        "referencia": "Manual 11.3",
+        "detalhe": "/profissao-teste/modelo-a/: tag oficial"
+      },
+      {
+        "codigo": "CSS_CANONICO",
+        "status": "aprovado",
+        "referencia": "Manual 1; 11.34",
+        "detalhe": "/profissao-teste/modelo-a/: CSS idêntico à base"
+      },
+      {
+        "codigo": "MENU_GLOBAL",
+        "status": "aprovado",
+        "referencia": "Manual 1.2",
+        "detalhe": "/profissao-teste/modelo-a/: menu global"
+      },
+      {
+        "codigo": "DISCLAIMER",
+        "status": "aprovado",
+        "referencia": "Manual 1.10; 9.16",
+        "detalhe": "/profissao-teste/modelo-a/: aviso único no rodapé"
+      },
+      {
+        "codigo": "PLACEHOLDERS",
+        "status": "aprovado",
+        "referencia": "Manual 11.36",
+        "detalhe": "/profissao-teste/modelo-a/: sem campos/template remanescentes"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/modelo-a/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "reprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/modelo-a/: /assets/img/logo-virada-propria.png"
+      },
+      {
+        "codigo": "IMAGEM_ATRIBUTOS",
+        "status": "reprovado",
+        "referencia": "Manual 10.10; 10.13",
+        "detalhe": "/profissao-teste/modelo-a/: /assets/img/logo-virada-propria.png"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/modelo-a/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "reprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/modelo-a/: /empreendedorismo/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/modelo-a/: /profissoes/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/modelo-a/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/modelo-a/: /profissoes/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/modelo-a/: /profissao-teste/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/modelo-a/: /profissao-teste/equipamentos/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/modelo-a/: /assets/img/produtos/profissao-teste/modelo-a-0.png"
+      },
+      {
+        "codigo": "IMAGEM_ATRIBUTOS",
+        "status": "aprovado",
+        "referencia": "Manual 10.10; 10.13",
+        "detalhe": "/profissao-teste/modelo-a/: /assets/img/produtos/profissao-teste/modelo-a-0.png"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/modelo-a/: /assets/img/produtos/profissao-teste/modelo-a-1.png"
+      },
+      {
+        "codigo": "IMAGEM_ATRIBUTOS",
+        "status": "aprovado",
+        "referencia": "Manual 10.10; 10.13",
+        "detalhe": "/profissao-teste/modelo-a/: /assets/img/produtos/profissao-teste/modelo-a-1.png"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/modelo-a/: /assets/img/produtos/profissao-teste/modelo-a-2.png"
+      },
+      {
+        "codigo": "IMAGEM_ATRIBUTOS",
+        "status": "aprovado",
+        "referencia": "Manual 10.10; 10.13",
+        "detalhe": "/profissao-teste/modelo-a/: /assets/img/produtos/profissao-teste/modelo-a-2.png"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/modelo-a/: https://example.com/modelo-a"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/modelo-a/: https://example.com/modelo-a"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/modelo-a/: https://example.com/modelo-a"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/modelo-a/: /profissao-teste/opcoes/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/modelo-a/: /profissao-teste/equipamentos/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/modelo-a/: /profissao-teste/"
+      },
+      {
+        "codigo": "ESTRUTURA_HTML",
+        "status": "aprovado",
+        "referencia": "Manual 11.2",
+        "detalhe": "/profissao-teste/opcoes/: doctype e idioma"
+      },
+      {
+        "codigo": "CHARSET_VIEWPORT",
+        "status": "aprovado",
+        "referencia": "Manual 11.2",
+        "detalhe": "/profissao-teste/opcoes/: charset e viewport"
+      },
+      {
+        "codigo": "TITLE",
+        "status": "aprovado",
+        "referencia": "Manual 11.4",
+        "detalhe": "/profissao-teste/opcoes/: Opções do cenário de teste | Virada Própria"
+      },
+      {
+        "codigo": "META_DESCRIPTION",
+        "status": "aprovado",
+        "referencia": "Manual 11.5",
+        "detalhe": "/profissao-teste/opcoes/: Dados sintéticos para validar a montagem de opcoes."
+      },
+      {
+        "codigo": "H1",
+        "status": "aprovado",
+        "referencia": "Manual 8.5",
+        "detalhe": "/profissao-teste/opcoes/: um H1"
+      },
+      {
+        "codigo": "HEADINGS",
+        "status": "aprovado",
+        "referencia": "Manual 11.27",
+        "detalhe": "/profissao-teste/opcoes/: [1, 2, 2, 3, 2, 3]"
+      },
+      {
+        "codigo": "ROBOTS",
+        "status": "aprovado",
+        "referencia": "Manual 11.6",
+        "detalhe": "/profissao-teste/opcoes/: robots público"
+      },
+      {
+        "codigo": "CANONICAL",
+        "status": "aprovado",
+        "referencia": "Manual 11.7",
+        "detalhe": "/profissao-teste/opcoes/: /profissao-teste/opcoes/"
+      },
+      {
+        "codigo": "OPEN_GRAPH",
+        "status": "aprovado",
+        "referencia": "Manual 11.9",
+        "detalhe": "/profissao-teste/opcoes/: metadados sociais"
+      },
+      {
+        "codigo": "JSON_LD",
+        "status": "aprovado",
+        "referencia": "Manual 11.10–11.12",
+        "detalhe": "/profissao-teste/opcoes/: schema coerente e sem datas"
+      },
+      {
+        "codigo": "DATAS_PUBLICAS",
+        "status": "aprovado",
+        "referencia": "Manual 11.11",
+        "detalhe": "/profissao-teste/opcoes/: sem datas editoriais públicas"
+      },
+      {
+        "codigo": "ANALYTICS",
+        "status": "aprovado",
+        "referencia": "Manual 11.3",
+        "detalhe": "/profissao-teste/opcoes/: tag oficial"
+      },
+      {
+        "codigo": "CSS_CANONICO",
+        "status": "aprovado",
+        "referencia": "Manual 1; 11.34",
+        "detalhe": "/profissao-teste/opcoes/: CSS idêntico à base"
+      },
+      {
+        "codigo": "MENU_GLOBAL",
+        "status": "aprovado",
+        "referencia": "Manual 1.2",
+        "detalhe": "/profissao-teste/opcoes/: menu global"
+      },
+      {
+        "codigo": "DISCLAIMER",
+        "status": "aprovado",
+        "referencia": "Manual 1.10; 9.16",
+        "detalhe": "/profissao-teste/opcoes/: aviso único no rodapé"
+      },
+      {
+        "codigo": "PLACEHOLDERS",
+        "status": "aprovado",
+        "referencia": "Manual 11.36",
+        "detalhe": "/profissao-teste/opcoes/: sem campos/template remanescentes"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/opcoes/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "reprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/opcoes/: /assets/img/logo-virada-propria.png"
+      },
+      {
+        "codigo": "IMAGEM_ATRIBUTOS",
+        "status": "reprovado",
+        "referencia": "Manual 10.10; 10.13",
+        "detalhe": "/profissao-teste/opcoes/: /assets/img/logo-virada-propria.png"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/opcoes/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "reprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/opcoes/: /empreendedorismo/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/opcoes/: /profissoes/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/opcoes/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/opcoes/: /profissoes/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/opcoes/: /profissao-teste/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/opcoes/: /profissao-teste/equipamentos/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/opcoes/: /assets/img/produtos/profissao-teste/modelo-a-0.png"
+      },
+      {
+        "codigo": "IMAGEM_ATRIBUTOS",
+        "status": "aprovado",
+        "referencia": "Manual 10.10; 10.13",
+        "detalhe": "/profissao-teste/opcoes/: /assets/img/produtos/profissao-teste/modelo-a-0.png"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/opcoes/: /profissao-teste/modelo-a/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/opcoes/: https://example.com/modelo-a"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/opcoes/: /assets/img/produtos/profissao-teste/modelo-b-0.png"
+      },
+      {
+        "codigo": "IMAGEM_ATRIBUTOS",
+        "status": "aprovado",
+        "referencia": "Manual 10.10; 10.13",
+        "detalhe": "/profissao-teste/opcoes/: /assets/img/produtos/profissao-teste/modelo-b-0.png"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/opcoes/: https://example.com/modelo-b"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/opcoes/: /profissao-teste/equipamentos/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/opcoes/: /profissao-teste/"
+      },
+      {
+        "codigo": "ESTRUTURA_HTML",
+        "status": "aprovado",
+        "referencia": "Manual 11.2",
+        "detalhe": "/profissao-teste/: doctype e idioma"
+      },
+      {
+        "codigo": "CHARSET_VIEWPORT",
+        "status": "aprovado",
+        "referencia": "Manual 11.2",
+        "detalhe": "/profissao-teste/: charset e viewport"
+      },
+      {
+        "codigo": "TITLE",
+        "status": "aprovado",
+        "referencia": "Manual 11.4",
+        "detalhe": "/profissao-teste/: Profissão de teste | Virada Própria"
+      },
+      {
+        "codigo": "META_DESCRIPTION",
+        "status": "aprovado",
+        "referencia": "Manual 11.5",
+        "detalhe": "/profissao-teste/: Cenário sintético para testar a arquitetura e a navegação."
+      },
+      {
+        "codigo": "H1",
+        "status": "aprovado",
+        "referencia": "Manual 8.5",
+        "detalhe": "/profissao-teste/: um H1"
+      },
+      {
+        "codigo": "HEADINGS",
+        "status": "aprovado",
+        "referencia": "Manual 11.27",
+        "detalhe": "/profissao-teste/: [1]"
+      },
+      {
+        "codigo": "ROBOTS",
+        "status": "aprovado",
+        "referencia": "Manual 11.6",
+        "detalhe": "/profissao-teste/: robots público"
+      },
+      {
+        "codigo": "CANONICAL",
+        "status": "aprovado",
+        "referencia": "Manual 11.7",
+        "detalhe": "/profissao-teste/: /profissao-teste/"
+      },
+      {
+        "codigo": "OPEN_GRAPH",
+        "status": "aprovado",
+        "referencia": "Manual 11.9",
+        "detalhe": "/profissao-teste/: metadados sociais"
+      },
+      {
+        "codigo": "JSON_LD",
+        "status": "aprovado",
+        "referencia": "Manual 11.10–11.12",
+        "detalhe": "/profissao-teste/: schema coerente e sem datas"
+      },
+      {
+        "codigo": "DATAS_PUBLICAS",
+        "status": "aprovado",
+        "referencia": "Manual 11.11",
+        "detalhe": "/profissao-teste/: sem datas editoriais públicas"
+      },
+      {
+        "codigo": "ANALYTICS",
+        "status": "aprovado",
+        "referencia": "Manual 11.3",
+        "detalhe": "/profissao-teste/: tag oficial"
+      },
+      {
+        "codigo": "CSS_CANONICO",
+        "status": "aprovado",
+        "referencia": "Manual 1; 11.34",
+        "detalhe": "/profissao-teste/: CSS idêntico à base"
+      },
+      {
+        "codigo": "MENU_GLOBAL",
+        "status": "aprovado",
+        "referencia": "Manual 1.2",
+        "detalhe": "/profissao-teste/: menu global"
+      },
+      {
+        "codigo": "DISCLAIMER",
+        "status": "aprovado",
+        "referencia": "Manual 1.10; 9.16",
+        "detalhe": "/profissao-teste/: aviso único no rodapé"
+      },
+      {
+        "codigo": "PLACEHOLDERS",
+        "status": "aprovado",
+        "referencia": "Manual 11.36",
+        "detalhe": "/profissao-teste/: sem campos/template remanescentes"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "reprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/: /assets/img/logo-virada-propria.png"
+      },
+      {
+        "codigo": "IMAGEM_ATRIBUTOS",
+        "status": "reprovado",
+        "referencia": "Manual 10.10; 10.13",
+        "detalhe": "/profissao-teste/: /assets/img/logo-virada-propria.png"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "reprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/: /empreendedorismo/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/: /profissoes/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/: /profissoes/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/: /profissao-teste/a-profissao/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/: /profissao-teste/formacao/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/: /profissao-teste/equipamentos/"
+      },
+      {
+        "codigo": "ESTRUTURA_HTML",
+        "status": "aprovado",
+        "referencia": "Manual 11.2",
+        "detalhe": "/profissao-teste/a-profissao/: doctype e idioma"
+      },
+      {
+        "codigo": "CHARSET_VIEWPORT",
+        "status": "aprovado",
+        "referencia": "Manual 11.2",
+        "detalhe": "/profissao-teste/a-profissao/: charset e viewport"
+      },
+      {
+        "codigo": "TITLE",
+        "status": "aprovado",
+        "referencia": "Manual 11.4",
+        "detalhe": "/profissao-teste/a-profissao/: A profissão - Profissão de teste | Virada Própria"
+      },
+      {
+        "codigo": "META_DESCRIPTION",
+        "status": "aprovado",
+        "referencia": "Manual 11.5",
+        "detalhe": "/profissao-teste/a-profissao/: Conteúdos sintéticos de a-profissao para conferir a automação."
+      },
+      {
+        "codigo": "H1",
+        "status": "aprovado",
+        "referencia": "Manual 8.5",
+        "detalhe": "/profissao-teste/a-profissao/: um H1"
+      },
+      {
+        "codigo": "HEADINGS",
+        "status": "aprovado",
+        "referencia": "Manual 11.27",
+        "detalhe": "/profissao-teste/a-profissao/: [1, 2]"
+      },
+      {
+        "codigo": "ROBOTS",
+        "status": "aprovado",
+        "referencia": "Manual 11.6",
+        "detalhe": "/profissao-teste/a-profissao/: robots público"
+      },
+      {
+        "codigo": "CANONICAL",
+        "status": "aprovado",
+        "referencia": "Manual 11.7",
+        "detalhe": "/profissao-teste/a-profissao/: /profissao-teste/a-profissao/"
+      },
+      {
+        "codigo": "OPEN_GRAPH",
+        "status": "aprovado",
+        "referencia": "Manual 11.9",
+        "detalhe": "/profissao-teste/a-profissao/: metadados sociais"
+      },
+      {
+        "codigo": "JSON_LD",
+        "status": "aprovado",
+        "referencia": "Manual 11.10–11.12",
+        "detalhe": "/profissao-teste/a-profissao/: schema coerente e sem datas"
+      },
+      {
+        "codigo": "DATAS_PUBLICAS",
+        "status": "aprovado",
+        "referencia": "Manual 11.11",
+        "detalhe": "/profissao-teste/a-profissao/: sem datas editoriais públicas"
+      },
+      {
+        "codigo": "ANALYTICS",
+        "status": "aprovado",
+        "referencia": "Manual 11.3",
+        "detalhe": "/profissao-teste/a-profissao/: tag oficial"
+      },
+      {
+        "codigo": "CSS_CANONICO",
+        "status": "aprovado",
+        "referencia": "Manual 1; 11.34",
+        "detalhe": "/profissao-teste/a-profissao/: CSS idêntico à base"
+      },
+      {
+        "codigo": "MENU_GLOBAL",
+        "status": "aprovado",
+        "referencia": "Manual 1.2",
+        "detalhe": "/profissao-teste/a-profissao/: menu global"
+      },
+      {
+        "codigo": "DISCLAIMER",
+        "status": "aprovado",
+        "referencia": "Manual 1.10; 9.16",
+        "detalhe": "/profissao-teste/a-profissao/: aviso único no rodapé"
+      },
+      {
+        "codigo": "PLACEHOLDERS",
+        "status": "aprovado",
+        "referencia": "Manual 11.36",
+        "detalhe": "/profissao-teste/a-profissao/: sem campos/template remanescentes"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/a-profissao/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "reprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/a-profissao/: /assets/img/logo-virada-propria.png"
+      },
+      {
+        "codigo": "IMAGEM_ATRIBUTOS",
+        "status": "reprovado",
+        "referencia": "Manual 10.10; 10.13",
+        "detalhe": "/profissao-teste/a-profissao/: /assets/img/logo-virada-propria.png"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/a-profissao/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "reprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/a-profissao/: /empreendedorismo/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/a-profissao/: /profissoes/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/a-profissao/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/a-profissao/: /profissoes/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/a-profissao/: /profissao-teste/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/a-profissao/: /profissao-teste/inicio/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/a-profissao/: /profissao-teste/"
+      },
+      {
+        "codigo": "ESTRUTURA_HTML",
+        "status": "aprovado",
+        "referencia": "Manual 11.2",
+        "detalhe": "/profissao-teste/formacao/: doctype e idioma"
+      },
+      {
+        "codigo": "CHARSET_VIEWPORT",
+        "status": "aprovado",
+        "referencia": "Manual 11.2",
+        "detalhe": "/profissao-teste/formacao/: charset e viewport"
+      },
+      {
+        "codigo": "TITLE",
+        "status": "aprovado",
+        "referencia": "Manual 11.4",
+        "detalhe": "/profissao-teste/formacao/: Formação - Profissão de teste | Virada Própria"
+      },
+      {
+        "codigo": "META_DESCRIPTION",
+        "status": "aprovado",
+        "referencia": "Manual 11.5",
+        "detalhe": "/profissao-teste/formacao/: Conteúdos sintéticos de formacao para conferir a automação."
+      },
+      {
+        "codigo": "H1",
+        "status": "aprovado",
+        "referencia": "Manual 8.5",
+        "detalhe": "/profissao-teste/formacao/: um H1"
+      },
+      {
+        "codigo": "HEADINGS",
+        "status": "aprovado",
+        "referencia": "Manual 11.27",
+        "detalhe": "/profissao-teste/formacao/: [1, 2]"
+      },
+      {
+        "codigo": "ROBOTS",
+        "status": "aprovado",
+        "referencia": "Manual 11.6",
+        "detalhe": "/profissao-teste/formacao/: robots público"
+      },
+      {
+        "codigo": "CANONICAL",
+        "status": "aprovado",
+        "referencia": "Manual 11.7",
+        "detalhe": "/profissao-teste/formacao/: /profissao-teste/formacao/"
+      },
+      {
+        "codigo": "OPEN_GRAPH",
+        "status": "aprovado",
+        "referencia": "Manual 11.9",
+        "detalhe": "/profissao-teste/formacao/: metadados sociais"
+      },
+      {
+        "codigo": "JSON_LD",
+        "status": "aprovado",
+        "referencia": "Manual 11.10–11.12",
+        "detalhe": "/profissao-teste/formacao/: schema coerente e sem datas"
+      },
+      {
+        "codigo": "DATAS_PUBLICAS",
+        "status": "aprovado",
+        "referencia": "Manual 11.11",
+        "detalhe": "/profissao-teste/formacao/: sem datas editoriais públicas"
+      },
+      {
+        "codigo": "ANALYTICS",
+        "status": "aprovado",
+        "referencia": "Manual 11.3",
+        "detalhe": "/profissao-teste/formacao/: tag oficial"
+      },
+      {
+        "codigo": "CSS_CANONICO",
+        "status": "aprovado",
+        "referencia": "Manual 1; 11.34",
+        "detalhe": "/profissao-teste/formacao/: CSS idêntico à base"
+      },
+      {
+        "codigo": "MENU_GLOBAL",
+        "status": "aprovado",
+        "referencia": "Manual 1.2",
+        "detalhe": "/profissao-teste/formacao/: menu global"
+      },
+      {
+        "codigo": "DISCLAIMER",
+        "status": "aprovado",
+        "referencia": "Manual 1.10; 9.16",
+        "detalhe": "/profissao-teste/formacao/: aviso único no rodapé"
+      },
+      {
+        "codigo": "PLACEHOLDERS",
+        "status": "aprovado",
+        "referencia": "Manual 11.36",
+        "detalhe": "/profissao-teste/formacao/: sem campos/template remanescentes"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/formacao/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "reprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/formacao/: /assets/img/logo-virada-propria.png"
+      },
+      {
+        "codigo": "IMAGEM_ATRIBUTOS",
+        "status": "reprovado",
+        "referencia": "Manual 10.10; 10.13",
+        "detalhe": "/profissao-teste/formacao/: /assets/img/logo-virada-propria.png"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/formacao/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "reprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/formacao/: /empreendedorismo/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/formacao/: /profissoes/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/formacao/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/formacao/: /profissoes/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/formacao/: /profissao-teste/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/formacao/: /profissao-teste/capacitacao/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/formacao/: /profissao-teste/"
+      },
+      {
+        "codigo": "ESTRUTURA_HTML",
+        "status": "aprovado",
+        "referencia": "Manual 11.2",
+        "detalhe": "/profissao-teste/equipamentos/: doctype e idioma"
+      },
+      {
+        "codigo": "CHARSET_VIEWPORT",
+        "status": "aprovado",
+        "referencia": "Manual 11.2",
+        "detalhe": "/profissao-teste/equipamentos/: charset e viewport"
+      },
+      {
+        "codigo": "TITLE",
+        "status": "aprovado",
+        "referencia": "Manual 11.4",
+        "detalhe": "/profissao-teste/equipamentos/: Equipamentos - Profissão de teste | Virada Própria"
+      },
+      {
+        "codigo": "META_DESCRIPTION",
+        "status": "aprovado",
+        "referencia": "Manual 11.5",
+        "detalhe": "/profissao-teste/equipamentos/: Conteúdos sintéticos de equipamentos para conferir a automação."
+      },
+      {
+        "codigo": "H1",
+        "status": "aprovado",
+        "referencia": "Manual 8.5",
+        "detalhe": "/profissao-teste/equipamentos/: um H1"
+      },
+      {
+        "codigo": "HEADINGS",
+        "status": "aprovado",
+        "referencia": "Manual 11.27",
+        "detalhe": "/profissao-teste/equipamentos/: [1, 2, 2]"
+      },
+      {
+        "codigo": "ROBOTS",
+        "status": "aprovado",
+        "referencia": "Manual 11.6",
+        "detalhe": "/profissao-teste/equipamentos/: robots público"
+      },
+      {
+        "codigo": "CANONICAL",
+        "status": "aprovado",
+        "referencia": "Manual 11.7",
+        "detalhe": "/profissao-teste/equipamentos/: /profissao-teste/equipamentos/"
+      },
+      {
+        "codigo": "OPEN_GRAPH",
+        "status": "aprovado",
+        "referencia": "Manual 11.9",
+        "detalhe": "/profissao-teste/equipamentos/: metadados sociais"
+      },
+      {
+        "codigo": "JSON_LD",
+        "status": "aprovado",
+        "referencia": "Manual 11.10–11.12",
+        "detalhe": "/profissao-teste/equipamentos/: schema coerente e sem datas"
+      },
+      {
+        "codigo": "DATAS_PUBLICAS",
+        "status": "aprovado",
+        "referencia": "Manual 11.11",
+        "detalhe": "/profissao-teste/equipamentos/: sem datas editoriais públicas"
+      },
+      {
+        "codigo": "ANALYTICS",
+        "status": "aprovado",
+        "referencia": "Manual 11.3",
+        "detalhe": "/profissao-teste/equipamentos/: tag oficial"
+      },
+      {
+        "codigo": "CSS_CANONICO",
+        "status": "aprovado",
+        "referencia": "Manual 1; 11.34",
+        "detalhe": "/profissao-teste/equipamentos/: CSS idêntico à base"
+      },
+      {
+        "codigo": "MENU_GLOBAL",
+        "status": "aprovado",
+        "referencia": "Manual 1.2",
+        "detalhe": "/profissao-teste/equipamentos/: menu global"
+      },
+      {
+        "codigo": "DISCLAIMER",
+        "status": "aprovado",
+        "referencia": "Manual 1.10; 9.16",
+        "detalhe": "/profissao-teste/equipamentos/: aviso único no rodapé"
+      },
+      {
+        "codigo": "PLACEHOLDERS",
+        "status": "aprovado",
+        "referencia": "Manual 11.36",
+        "detalhe": "/profissao-teste/equipamentos/: sem campos/template remanescentes"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/equipamentos/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "reprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/equipamentos/: /assets/img/logo-virada-propria.png"
+      },
+      {
+        "codigo": "IMAGEM_ATRIBUTOS",
+        "status": "reprovado",
+        "referencia": "Manual 10.10; 10.13",
+        "detalhe": "/profissao-teste/equipamentos/: /assets/img/logo-virada-propria.png"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/equipamentos/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "reprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/equipamentos/: /empreendedorismo/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/equipamentos/: /profissoes/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/equipamentos/: /"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/equipamentos/: /profissoes/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/equipamentos/: /profissao-teste/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/equipamentos/: /profissao-teste/modelo-a/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/equipamentos/: /profissao-teste/opcoes/"
+      },
+      {
+        "codigo": "DESTINO_EXISTE",
+        "status": "aprovado",
+        "referencia": "Manual 7.17; 11.23–11.24",
+        "detalhe": "/profissao-teste/equipamentos/: /profissao-teste/"
+      },
+      {
+        "codigo": "IMAGENS_POR_PRODUTO",
+        "status": "aprovado",
+        "referencia": "Manual 5.9; 5.21; 10.5",
+        "detalhe": "modelo-a: 3/3 imagens distintas"
+      },
+      {
+        "codigo": "IMAGENS_POR_PRODUTO",
+        "status": "aprovado",
+        "referencia": "Manual 5.9; 5.21; 10.5",
+        "detalhe": "modelo-a: 1/1 imagens distintas"
+      },
+      {
+        "codigo": "IMAGENS_POR_PRODUTO",
+        "status": "aprovado",
+        "referencia": "Manual 5.9; 5.21; 10.5",
+        "detalhe": "modelo-b: 1/1 imagens distintas"
+      },
+      {
+        "codigo": "BROWSER_LAYOUT",
+        "status": "reprovado",
+        "referencia": "Manual 11.17–11.19",
+        "detalhe": "{\"route\": \"/profissao-teste/inicio/\", \"width\": 390, \"overflow\": false, \"brokenImages\": [\"/assets/img/logo-virada-propria.png\"], \"headerPosition\": \"static\", \"h1\": 1, \"screenshot\": \"screenshots/0-390.png\", \"ok\": false}"
+      },
+      {
+        "codigo": "BROWSER_LAYOUT",
+        "status": "reprovado",
+        "referencia": "Manual 11.17–11.19",
+        "detalhe": "{\"route\": \"/profissao-teste/capacitacao/\", \"width\": 390, \"overflow\": false, \"brokenImages\": [\"/assets/img/logo-virada-propria.png\"], \"headerPosition\": \"static\", \"h1\": 1, \"screenshot\": \"screenshots/1-390.png\", \"ok\": false}"
+      },
+      {
+        "codigo": "BROWSER_LAYOUT",
+        "status": "reprovado",
+        "referencia": "Manual 11.17–11.19",
+        "detalhe": "{\"route\": \"/profissao-teste/modelo-a/\", \"width\": 390, \"overflow\": false, \"brokenImages\": [\"/assets/img/logo-virada-propria.png\"], \"headerPosition\": \"static\", \"h1\": 1, \"screenshot\": \"screenshots/2-390.png\", \"ok\": false}"
+      },
+      {
+        "codigo": "BROWSER_LAYOUT",
+        "status": "reprovado",
+        "referencia": "Manual 11.17–11.19",
+        "detalhe": "{\"route\": \"/profissao-teste/opcoes/\", \"width\": 390, \"overflow\": false, \"brokenImages\": [\"/assets/img/logo-virada-propria.png\"], \"headerPosition\": \"static\", \"h1\": 1, \"screenshot\": \"screenshots/3-390.png\", \"ok\": false}"
+      },
+      {
+        "codigo": "BROWSER_LAYOUT",
+        "status": "reprovado",
+        "referencia": "Manual 11.17–11.19",
+        "detalhe": "{\"route\": \"/profissao-teste/\", \"width\": 390, \"overflow\": false, \"brokenImages\": [\"/assets/img/logo-virada-propria.png\"], \"headerPosition\": \"static\", \"h1\": 1, \"screenshot\": \"screenshots/4-390.png\", \"ok\": false}"
+      },
+      {
+        "codigo": "BROWSER_LAYOUT",
+        "status": "reprovado",
+        "referencia": "Manual 11.17–11.19",
+        "detalhe": "{\"route\": \"/profissao-teste/a-profissao/\", \"width\": 390, \"overflow\": false, \"brokenImages\": [\"/assets/img/logo-virada-propria.png\"], \"headerPosition\": \"static\", \"h1\": 1, \"screenshot\": \"screenshots/5-390.png\", \"ok\": false}"
+      },
+      {
+        "codigo": "BROWSER_LAYOUT",
+        "status": "reprovado",
+        "referencia": "Manual 11.17–11.19",
+        "detalhe": "{\"route\": \"/profissao-teste/formacao/\", \"width\": 390, \"overflow\": false, \"brokenImages\": [\"/assets/img/logo-virada-propria.png\"], \"headerPosition\": \"static\", \"h1\": 1, \"screenshot\": \"screenshots/6-390.png\", \"ok\": false}"
+      },
+      {
+        "codigo": "BROWSER_LAYOUT",
+        "status": "reprovado",
+        "referencia": "Manual 11.17–11.19",
+        "detalhe": "{\"route\": \"/profissao-teste/equipamentos/\", \"width\": 390, \"overflow\": false, \"brokenImages\": [\"/assets/img/logo-virada-propria.png\"], \"headerPosition\": \"static\", \"h1\": 1, \"screenshot\": \"screenshots/7-390.png\", \"ok\": false}"
+      },
+      {
+        "codigo": "BROWSER_LAYOUT",
+        "status": "reprovado",
+        "referencia": "Manual 11.17–11.19",
+        "detalhe": "{\"route\": \"/profissao-teste/inicio/\", \"width\": 1440, \"overflow\": false, \"brokenImages\": [\"/assets/img/logo-virada-propria.png\"], \"headerPosition\": \"static\", \"h1\": 1, \"screenshot\": \"screenshots/0-1440.png\", \"ok\": false}"
+      },
+      {
+        "codigo": "BROWSER_LAYOUT",
+        "status": "reprovado",
+        "referencia": "Manual 11.17–11.19",
+        "detalhe": "{\"route\": \"/profissao-teste/capacitacao/\", \"width\": 1440, \"overflow\": false, \"brokenImages\": [\"/assets/img/logo-virada-propria.png\"], \"headerPosition\": \"static\", \"h1\": 1, \"screenshot\": \"screenshots/1-1440.png\", \"ok\": false}"
+      },
+      {
+        "codigo": "BROWSER_LAYOUT",
+        "status": "reprovado",
+        "referencia": "Manual 11.17–11.19",
+        "detalhe": "{\"route\": \"/profissao-teste/modelo-a/\", \"width\": 1440, \"overflow\": false, \"brokenImages\": [\"/assets/img/logo-virada-propria.png\"], \"headerPosition\": \"static\", \"h1\": 1, \"screenshot\": \"screenshots/2-1440.png\", \"ok\": false}"
+      },
+      {
+        "codigo": "BROWSER_LAYOUT",
+        "status": "reprovado",
+        "referencia": "Manual 11.17–11.19",
+        "detalhe": "{\"route\": \"/profissao-teste/opcoes/\", \"width\": 1440, \"overflow\": false, \"brokenImages\": [\"/assets/img/logo-virada-propria.png\"], \"headerPosition\": \"static\", \"h1\": 1, \"screenshot\": \"screenshots/3-1440.png\", \"ok\": false}"
+      },
+      {
+        "codigo": "BROWSER_LAYOUT",
+        "status": "reprovado",
+        "referencia": "Manual 11.17–11.19",
+        "detalhe": "{\"route\": \"/profissao-teste/\", \"width\": 1440, \"overflow\": false, \"brokenImages\": [\"/assets/img/logo-virada-propria.png\"], \"headerPosition\": \"static\", \"h1\": 1, \"screenshot\": \"screenshots/4-1440.png\", \"ok\": false}"
+      },
+      {
+        "codigo": "BROWSER_LAYOUT",
+        "status": "reprovado",
+        "referencia": "Manual 11.17–11.19",
+        "detalhe": "{\"route\": \"/profissao-teste/a-profissao/\", \"width\": 1440, \"overflow\": false, \"brokenImages\": [\"/assets/img/logo-virada-propria.png\"], \"headerPosition\": \"static\", \"h1\": 1, \"screenshot\": \"screenshots/5-1440.png\", \"ok\": false}"
+      },
+      {
+        "codigo": "BROWSER_LAYOUT",
+        "status": "reprovado",
+        "referencia": "Manual 11.17–11.19",
+        "detalhe": "{\"route\": \"/profissao-teste/formacao/\", \"width\": 1440, \"overflow\": false, \"brokenImages\": [\"/assets/img/logo-virada-propria.png\"], \"headerPosition\": \"static\", \"h1\": 1, \"screenshot\": \"screenshots/6-1440.png\", \"ok\": false}"
+      },
+      {
+        "codigo": "BROWSER_LAYOUT",
+        "status": "reprovado",
+        "referencia": "Manual 11.17–11.19",
+        "detalhe": "{\"route\": \"/profissao-teste/equipamentos/\", \"width\": 1440, \"overflow\": false, \"brokenImages\": [\"/assets/img/logo-virada-propria.png\"], \"headerPosition\": \"static\", \"h1\": 1, \"screenshot\": \"screenshots/7-1440.png\", \"ok\": false}"
+      }
+    ]
+  },
+  "plano": [
+    {
+      "arquivo": "sitemap.xml",
+      "acao": "atualizar",
+      "sha256": "b222ae27ad45d42893ad65b933938e19e860d30335963b68c3d18d4868f1dfba"
+    },
+    {
+      "arquivo": "profissao-teste/index.html",
+      "acao": "criar",
+      "sha256": "d9954ba85b29afe833382287b456265df50c7ab29a66e51e00c128589003348b"
+    },
+    {
+      "arquivo": "profissoes/index.html",
+      "acao": "atualizar",
+      "sha256": "16e222af64cca5e771b79b87025f257520925c7e3f1410cf7718b88a490508f3"
+    },
+    {
+      "arquivo": "assets/img/produtos/profissao-teste/modelo-a-0.png",
+      "acao": "criar",
+      "sha256": "cdf9b7d5c159575bd04c104c2b5b97bed3307aa0bd56587d5aad1d00bf3937e9"
+    },
+    {
+      "arquivo": "assets/img/produtos/profissao-teste/modelo-a-1.png",
+      "acao": "criar",
+      "sha256": "7aa2f5c3a99a7a814d2d6e2b9368f1058fa748328a7c29eb9ff393798a39546e"
+    },
+    {
+      "arquivo": "assets/img/produtos/profissao-teste/modelo-a-2.png",
+      "acao": "criar",
+      "sha256": "3a4a2a672fe3941c67e9a42e17ecae3798e2d3c8756772bc22c7bfe3a01e21cc"
+    },
+    {
+      "arquivo": "assets/img/produtos/profissao-teste/modelo-b-0.png",
+      "acao": "criar",
+      "sha256": "7423ca6d75f5c85fcfd31a7751a493dff8fb4f8367ff490a3c868d3038e95d88"
+    },
+    {
+      "arquivo": "profissao-teste/a-profissao/index.html",
+      "acao": "criar",
+      "sha256": "3c83ec12f8c259cd339cc3a238f08c4f852da8b0ba81b81103e700124ec62d1c"
+    },
+    {
+      "arquivo": "profissao-teste/capacitacao/index.html",
+      "acao": "criar",
+      "sha256": "6ddedd49ee4c67ef0c65428748f33c3aba8c4de4e4b0a9d902ea2638a3c157ec"
+    },
+    {
+      "arquivo": "profissao-teste/equipamentos/index.html",
+      "acao": "criar",
+      "sha256": "0198931ee9fe3bb05d5d434e128ec4a3eb8805db6a37d67dd23b18264ba8cb72"
+    },
+    {
+      "arquivo": "profissao-teste/formacao/index.html",
+      "acao": "criar",
+      "sha256": "70bc4188a3745e0aa006549ac041e934c6db43e615491b284e85ab4a3feb3ca5"
+    },
+    {
+      "arquivo": "profissao-teste/inicio/index.html",
+      "acao": "criar",
+      "sha256": "0fbbe0a3aee712d3f55f132193507d73b12e167688de85e6a22f08c1b8871734"
+    },
+    {
+      "arquivo": "profissao-teste/modelo-a/index.html",
+      "acao": "criar",
+      "sha256": "f665d72455f334aef1f8c8113cfa0c461aeb1cde959d4e6d2c3180182bed27ca"
+    },
+    {
+      "arquivo": "profissao-teste/opcoes/index.html",
+      "acao": "criar",
+      "sha256": "63e9321f62775336404509cef74c7a1e69531f0eea3a7d53f42ad78531e05e48"
+    }
+  ],
+  "revisao": [
+    {
+      "codigo": "REVISAO_CANONICA",
+      "status": "pendente",
+      "referencia": "Manual 12.8–12.9",
+      "detalhe": "1888 verificações aguardam evidência na fila integrada"
+    }
+  ],
+  "concluido": false,
+  "diretorio": "C:\\Users\\eduar\\AppData\\Local\\Temp\\vp-dry-run-fhbat49t",
+  "lote": "lote-tecnico-valido",
+  "versao_canonica": "1.1",
+  "zip_sha256": "7f2096d2ffbffdd7f74414706b1e9775d26e598d6b91708a9b5a4b29256803f3",
+  "imagens": {
+    "/assets/img/produtos/profissao-teste/modelo-a-0.png": {
+      "width": 120,
+      "height": 80,
+      "formato": "PNG",
+      "bytes": 641,
+      "sha256": "cdf9b7d5c159575bd04c104c2b5b97bed3307aa0bd56587d5aad1d00bf3937e9",
+      "pixels_sha256": "cf18bed9e0b62dd78bf7b7a6df734fa56c54e643c1734e7be79e906078643c4e"
+    },
+    "/assets/img/produtos/profissao-teste/modelo-a-1.png": {
+      "width": 120,
+      "height": 80,
+      "formato": "PNG",
+      "bytes": 717,
+      "sha256": "7aa2f5c3a99a7a814d2d6e2b9368f1058fa748328a7c29eb9ff393798a39546e",
+      "pixels_sha256": "5450e70e5c8114d4543b2dbd22f21ed92cbb83994aa87c3ba2d95ac0c947f04b"
+    },
+    "/assets/img/produtos/profissao-teste/modelo-a-2.png": {
+      "width": 120,
+      "height": 80,
+      "formato": "PNG",
+      "bytes": 737,
+      "sha256": "3a4a2a672fe3941c67e9a42e17ecae3798e2d3c8756772bc22c7bfe3a01e21cc",
+      "pixels_sha256": "7d100ba91536b8e562b819738de73cf123d56376d0b977701267eb98cc08339a"
+    },
+    "/assets/img/produtos/profissao-teste/modelo-b-0.png": {
+      "width": 120,
+      "height": 80,
+      "formato": "PNG",
+      "bytes": 730,
+      "sha256": "7423ca6d75f5c85fcfd31a7751a493dff8fb4f8367ff490a3c868d3038e95d88",
+      "pixels_sha256": "010a8dc219ce60a41e95eb01328d443a39ec7665ad917a6f8a600fecb192a8ba"
+    }
+  },
+  "paginas_montadas": [
+    "/profissao-teste/inicio/",
+    "/profissao-teste/capacitacao/",
+    "/profissao-teste/modelo-a/",
+    "/profissao-teste/opcoes/",
+    "/profissao-teste/",
+    "/profissao-teste/a-profissao/",
+    "/profissao-teste/formacao/",
+    "/profissao-teste/equipamentos/"
+  ],
+  "fingerprint": "90bfb723b71e0e4348763748cb1666992c12f2517b760ccd214a65f28d3f3f48",
+  "browser": {
+    "checks": [
+      {
+        "route": "/profissao-teste/inicio/",
+        "width": 390,
+        "overflow": false,
+        "brokenImages": [
+          "/assets/img/logo-virada-propria.png"
+        ],
+        "headerPosition": "static",
+        "h1": 1,
+        "screenshot": "screenshots/0-390.png",
+        "ok": false
+      },
+      {
+        "route": "/profissao-teste/capacitacao/",
+        "width": 390,
+        "overflow": false,
+        "brokenImages": [
+          "/assets/img/logo-virada-propria.png"
+        ],
+        "headerPosition": "static",
+        "h1": 1,
+        "screenshot": "screenshots/1-390.png",
+        "ok": false
+      },
+      {
+        "route": "/profissao-teste/modelo-a/",
+        "width": 390,
+        "overflow": false,
+        "brokenImages": [
+          "/assets/img/logo-virada-propria.png"
+        ],
+        "headerPosition": "static",
+        "h1": 1,
+        "screenshot": "screenshots/2-390.png",
+        "ok": false
+      },
+      {
+        "route": "/profissao-teste/opcoes/",
+        "width": 390,
+        "overflow": false,
+        "brokenImages": [
+          "/assets/img/logo-virada-propria.png"
+        ],
+        "headerPosition": "static",
+        "h1": 1,
+        "screenshot": "screenshots/3-390.png",
+        "ok": false
+      },
+      {
+        "route": "/profissao-teste/",
+        "width": 390,
+        "overflow": false,
+        "brokenImages": [
+          "/assets/img/logo-virada-propria.png"
+        ],
+        "headerPosition": "static",
+        "h1": 1,
+        "screenshot": "screenshots/4-390.png",
+        "ok": false
+      },
+      {
+        "route": "/profissao-teste/a-profissao/",
+        "width": 390,
+        "overflow": false,
+        "brokenImages": [
+          "/assets/img/logo-virada-propria.png"
+        ],
+        "headerPosition": "static",
+        "h1": 1,
+        "screenshot": "screenshots/5-390.png",
+        "ok": false
+      },
+      {
+        "route": "/profissao-teste/formacao/",
+        "width": 390,
+        "overflow": false,
+        "brokenImages": [
+          "/assets/img/logo-virada-propria.png"
+        ],
+        "headerPosition": "static",
+        "h1": 1,
+        "screenshot": "screenshots/6-390.png",
+        "ok": false
+      },
+      {
+        "route": "/profissao-teste/equipamentos/",
+        "width": 390,
+        "overflow": false,
+        "brokenImages": [
+          "/assets/img/logo-virada-propria.png"
+        ],
+        "headerPosition": "static",
+        "h1": 1,
+        "screenshot": "screenshots/7-390.png",
+        "ok": false
+      },
+      {
+        "route": "/profissao-teste/inicio/",
+        "width": 1440,
+        "overflow": false,
+        "brokenImages": [
+          "/assets/img/logo-virada-propria.png"
+        ],
+        "headerPosition": "static",
+        "h1": 1,
+        "screenshot": "screenshots/0-1440.png",
+        "ok": false
+      },
+      {
+        "route": "/profissao-teste/capacitacao/",
+        "width": 1440,
+        "overflow": false,
+        "brokenImages": [
+          "/assets/img/logo-virada-propria.png"
+        ],
+        "headerPosition": "static",
+        "h1": 1,
+        "screenshot": "screenshots/1-1440.png",
+        "ok": false
+      },
+      {
+        "route": "/profissao-teste/modelo-a/",
+        "width": 1440,
+        "overflow": false,
+        "brokenImages": [
+          "/assets/img/logo-virada-propria.png"
+        ],
+        "headerPosition": "static",
+        "h1": 1,
+        "screenshot": "screenshots/2-1440.png",
+        "ok": false
+      },
+      {
+        "route": "/profissao-teste/opcoes/",
+        "width": 1440,
+        "overflow": false,
+        "brokenImages": [
+          "/assets/img/logo-virada-propria.png"
+        ],
+        "headerPosition": "static",
+        "h1": 1,
+        "screenshot": "screenshots/3-1440.png",
+        "ok": false
+      },
+      {
+        "route": "/profissao-teste/",
+        "width": 1440,
+        "overflow": false,
+        "brokenImages": [
+          "/assets/img/logo-virada-propria.png"
+        ],
+        "headerPosition": "static",
+        "h1": 1,
+        "screenshot": "screenshots/4-1440.png",
+        "ok": false
+      },
+      {
+        "route": "/profissao-teste/a-profissao/",
+        "width": 1440,
+        "overflow": false,
+        "brokenImages": [
+          "/assets/img/logo-virada-propria.png"
+        ],
+        "headerPosition": "static",
+        "h1": 1,
+        "screenshot": "screenshots/5-1440.png",
+        "ok": false
+      },
+      {
+        "route": "/profissao-teste/formacao/",
+        "width": 1440,
+        "overflow": false,
+        "brokenImages": [
+          "/assets/img/logo-virada-propria.png"
+        ],
+        "headerPosition": "static",
+        "h1": 1,
+        "screenshot": "screenshots/6-1440.png",
+        "ok": false
+      },
+      {
+        "route": "/profissao-teste/equipamentos/",
+        "width": 1440,
+        "overflow": false,
+        "brokenImages": [
+          "/assets/img/logo-virada-propria.png"
+        ],
+        "headerPosition": "static",
+        "h1": 1,
+        "screenshot": "screenshots/7-1440.png",
+        "ok": false
+      }
+    ],
+    "note": "Rede externa bloqueada no teste; fonte pode usar fallback. Capturas ainda exigem inspeção visual."
+  },
+  "links_externos": [
+    {
+      "codigo": "HTTP_EXTERNO",
+      "status": "pendente",
+      "referencia": "Manual 11.25",
+      "detalhe": "https://example.com/modelo-a: executar --online"
+    },
+    {
+      "codigo": "HTTP_EXTERNO",
+      "status": "pendente",
+      "referencia": "Manual 11.25",
+      "detalhe": "https://example.com/modelo-b: executar --online"
+    }
+  ],
+  "publicacao": {
+    "autorizada": false,
+    "motivos": [
+      "Dry-run: sem aplicação, commit, push, PR ou merge.",
+      "Revalidar Pages e excluir AGENTS.md antes da publicação de infraestrutura."
+    ]
+  },
+  "bloqueios": 41,
+  "pendencias": 3,
+  "qc_concluido": false
+}
