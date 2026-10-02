@@ -1,59 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url><loc>https://virada-propria.github.io/</loc></url>
   <url><loc>https://virada-propria.github.io/profissoes/</loc></url>
-
-  <url><loc>https://virada-propria.github.io/limpeza-profissional/</loc></url>
-  <url><loc>https://virada-propria.github.io/limpeza-profissional/como-comecar/</loc></url>
-  <url><loc>https://virada-propria.github.io/limpeza-profissional/quanto-custa/</loc></url>
-  <url><loc>https://virada-propria.github.io/limpeza-profissional/o-que-comprar-primeiro/</loc></url>
-  <url><loc>https://virada-propria.github.io/limpeza-profissional/kit-iniciante/</loc></url>
-  <url><loc>https://virada-propria.github.io/limpeza-profissional/organizar-materiais-estoque-custos/</loc></url>
-  <url><loc>https://virada-propria.github.io/limpeza-profissional/aspirador-profissional/</loc></url>
-  <url><loc>https://virada-propria.github.io/limpeza-profissional/extratora/</loc></url>
-  <url><loc>https://virada-propria.github.io/limpeza-profissional/lavadora-piso-enceradeira/</loc></url>
-  <url><loc>https://virada-propria.github.io/limpeza-profissional/lavadora-alta-pressao/</loc></url>
-  <url><loc>https://virada-propria.github.io/limpeza-profissional/acessorios-organizacao/</loc></url>
-  <url><loc>https://virada-propria.github.io/limpeza-profissional/produtos-estoque-inicial/</loc></url>
-
-  <url><loc>https://virada-propria.github.io/nail-designer/</loc></url>
-  <url><loc>https://virada-propria.github.io/nail-designer/como-comecar/</loc></url>
-  <url><loc>https://virada-propria.github.io/nail-designer/quanto-custa/</loc></url>
-  <url><loc>https://virada-propria.github.io/nail-designer/o-que-comprar-primeiro/</loc></url>
-  <url><loc>https://virada-propria.github.io/nail-designer/espaco-atendimento/</loc></url>
-  <url><loc>https://virada-propria.github.io/nail-designer/organizar-agenda-materiais-custos/</loc></url>
-  <url><loc>https://virada-propria.github.io/nail-designer/kit-iniciante/</loc></url>
-  <url><loc>https://virada-propria.github.io/nail-designer/cabine-uv-led/</loc></url>
-  <url><loc>https://virada-propria.github.io/nail-designer/lixadeira-micromotor/</loc></url>
-  <url><loc>https://virada-propria.github.io/nail-designer/coletor-de-po/</loc></url>
-  <url><loc>https://virada-propria.github.io/nail-designer/iluminacao-bancada/</loc></url>
-
-  <url><loc>https://virada-propria.github.io/piscineiro/</loc></url>
-  <url><loc>https://virada-propria.github.io/piscineiro/como-comecar/</loc></url>
-  <url><loc>https://virada-propria.github.io/piscineiro/quanto-custa/</loc></url>
-  <url><loc>https://virada-propria.github.io/piscineiro/mei/</loc></url>
-  <url><loc>https://virada-propria.github.io/piscineiro/servicos/</loc></url>
-  <url><loc>https://virada-propria.github.io/piscineiro/kit-basico/</loc></url>
-  <url><loc>https://virada-propria.github.io/piscineiro/tabela-precos/</loc></url>
-  <url><loc>https://virada-propria.github.io/piscineiro/clientes/</loc></url>
-  <url><loc>https://virada-propria.github.io/piscineiro/kits/</loc></url>
-  <url><loc>https://virada-propria.github.io/piscineiro/aspirador-piscina/</loc></url>
-  <url><loc>https://virada-propria.github.io/piscineiro/medicao-ph-cloro/</loc></url>
-
+  <url><loc>https://virada-propria.github.io/empreendedorismo/</loc></url>
   <url><loc>https://virada-propria.github.io/jardineiro/</loc></url>
-  <url><loc>https://virada-propria.github.io/jardineiro/como-comecar/</loc></url>
-  <url><loc>https://virada-propria.github.io/jardineiro/quanto-cobrar/</loc></url>
-  <url><loc>https://virada-propria.github.io/jardineiro/mei/</loc></url>
-  <url><loc>https://virada-propria.github.io/jardineiro/servicos/</loc></url>
-  <url><loc>https://virada-propria.github.io/jardineiro/kit-basico/</loc></url>
-  <url><loc>https://virada-propria.github.io/jardineiro/tabela-precos/</loc></url>
   <url><loc>https://virada-propria.github.io/jardineiro/clientes/</loc></url>
+  <url><loc>https://virada-propria.github.io/jardineiro/como-comecar/</loc></url>
+  <url><loc>https://virada-propria.github.io/jardineiro/kit-basico/</loc></url>
   <url><loc>https://virada-propria.github.io/jardineiro/kits/</loc></url>
-  <url><loc>https://virada-propria.github.io/jardineiro/tesouras/</loc></url>
   <url><loc>https://virada-propria.github.io/jardineiro/maquinas/</loc></url>
-
-  <!-- Mecânico Automotivo -->
+  <url><loc>https://virada-propria.github.io/jardineiro/mei/</loc></url>
+  <url><loc>https://virada-propria.github.io/jardineiro/quanto-cobrar/</loc></url>
+  <url><loc>https://virada-propria.github.io/jardineiro/servicos/</loc></url>
+  <url><loc>https://virada-propria.github.io/jardineiro/tabela-precos/</loc></url>
+  <url><loc>https://virada-propria.github.io/jardineiro/tesouras/</loc></url>
+  <url><loc>https://virada-propria.github.io/limpeza-profissional/</loc></url>
+  <url><loc>https://virada-propria.github.io/limpeza-profissional/acessorios-organizacao/</loc></url>
+  <url><loc>https://virada-propria.github.io/limpeza-profissional/aspirador-profissional/</loc></url>
+  <url><loc>https://virada-propria.github.io/limpeza-profissional/como-comecar/</loc></url>
+  <url><loc>https://virada-propria.github.io/limpeza-profissional/extratora/</loc></url>
+  <url><loc>https://virada-propria.github.io/limpeza-profissional/kit-iniciante/</loc></url>
+  <url><loc>https://virada-propria.github.io/limpeza-profissional/lavadora-alta-pressao/</loc></url>
+  <url><loc>https://virada-propria.github.io/limpeza-profissional/lavadora-piso-enceradeira/</loc></url>
+  <url><loc>https://virada-propria.github.io/limpeza-profissional/o-que-comprar-primeiro/</loc></url>
+  <url><loc>https://virada-propria.github.io/limpeza-profissional/organizar-materiais-estoque-custos/</loc></url>
+  <url><loc>https://virada-propria.github.io/limpeza-profissional/produtos-estoque-inicial/</loc></url>
+  <url><loc>https://virada-propria.github.io/limpeza-profissional/quanto-custa/</loc></url>
+  <url><loc>https://virada-propria.github.io/mecanico-automotivo/</loc></url>
   <url><loc>https://virada-propria.github.io/mecanico-automotivo/a-profissao/</loc></url>
   <url><loc>https://virada-propria.github.io/mecanico-automotivo/chave-de-impacto-pneumatica-para-oficina/</loc></url>
   <url><loc>https://virada-propria.github.io/mecanico-automotivo/como-escolher-alinhador-3d/</loc></url>
@@ -91,7 +64,6 @@
   <url><loc>https://virada-propria.github.io/mecanico-automotivo/equipamentos/</loc></url>
   <url><loc>https://virada-propria.github.io/mecanico-automotivo/ferramentas-para-oficina-mecanica/</loc></url>
   <url><loc>https://virada-propria.github.io/mecanico-automotivo/formacao/</loc></url>
-  <url><loc>https://virada-propria.github.io/mecanico-automotivo/</loc></url>
   <url><loc>https://virada-propria.github.io/mecanico-automotivo/lavadora-de-pecas-para-oficina/</loc></url>
   <url><loc>https://virada-propria.github.io/mecanico-automotivo/macaco-jacare-profissional/</loc></url>
   <url><loc>https://virada-propria.github.io/mecanico-automotivo/maquina-fumaca-automotiva/</loc></url>
@@ -122,9 +94,115 @@
   <url><loc>https://virada-propria.github.io/mecanico-automotivo/scanner-automotivo-profissional/</loc></url>
   <url><loc>https://virada-propria.github.io/mecanico-automotivo/testador-de-bateria-automotiva/</loc></url>
   <url><loc>https://virada-propria.github.io/mecanico-automotivo/teste-pressao-combustivel/</loc></url>
-
-  <!-- Novas páginas publicadas -->
-  <url><loc>https://virada-propria.github.io/empreendedorismo/</loc></url>
+  <url><loc>https://virada-propria.github.io/nail-designer/</loc></url>
+  <url><loc>https://virada-propria.github.io/nail-designer/cabine-uv-led/</loc></url>
+  <url><loc>https://virada-propria.github.io/nail-designer/coletor-de-po/</loc></url>
+  <url><loc>https://virada-propria.github.io/nail-designer/como-comecar/</loc></url>
+  <url><loc>https://virada-propria.github.io/nail-designer/espaco-atendimento/</loc></url>
+  <url><loc>https://virada-propria.github.io/nail-designer/iluminacao-bancada/</loc></url>
+  <url><loc>https://virada-propria.github.io/nail-designer/kit-iniciante/</loc></url>
+  <url><loc>https://virada-propria.github.io/nail-designer/lixadeira-micromotor/</loc></url>
+  <url><loc>https://virada-propria.github.io/nail-designer/o-que-comprar-primeiro/</loc></url>
+  <url><loc>https://virada-propria.github.io/nail-designer/organizar-agenda-materiais-custos/</loc></url>
+  <url><loc>https://virada-propria.github.io/nail-designer/quanto-custa/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/a-profissao/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/betoneira-150-ou-400-litros/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/carrinho-de-mao-para-pedreiro-50-60-ou-65-litros/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/como-cobrar-servico-pedreiro/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/como-conseguir-clientes-pedreiro/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/como-se-tornar-pedreiro-profissional-curso/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/como-se-tornar-pedreiro-profissional/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/como-ser-pedreiro/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/como-trabalhar-como-pedreiro/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/contrato-prestacao-servicos-pedreiro/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/cortador-piso-porcelanato-como-escolher/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/curso-basico-profissional-pedreiro/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/curso-de-pedreiro-gratuito/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/curso-de-pedreiro-online/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/curso-de-pedreiro-senai/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/curso-de-pedreiro/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/curso-interpretacao-projetos-construcao-civil/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/curso-mestre-de-obras/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/curso-porcelanato-na-pratica/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/desempenadeira-eletrica-menegotti-mde-1200w-analise/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/desempenadeira-eletrica-reboco-vale-a-pena/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/equipamentos/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/ferramentas-de-pedreiro/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/formacao/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/marreta-para-pedreiro-3-modelos-2-kg-comparados/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/martelete-perfurador-rompedor-como-escolher/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/melhores-betoneiras-pedreiro/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/melhores-carrinhos-de-mao-para-obra/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/melhores-colheres-de-pedreiro-tamanhos-e-modelos/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/melhores-cortadores-piso-porcelanato/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/melhores-cursos-mestre-de-obras/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/melhores-cursos-pedreiro-online/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/melhores-marteletes-perfuradores-rompedores/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/melhores-misturadores-argamassa/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/melhores-niveis-a-laser/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/melhores-serras-marmore/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/misturador-argamassa-vale-a-pena/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/nivel-a-laser-para-pedreiro/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/o-que-faz-um-pedreiro/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/pedreiro-autonomo/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/pedreiro-servente-ajudante-diferencas/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/prumo-de-pedreiro-qual-modelo-escolher/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/quanto-ganha-pedreiro-autonomo/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/serra-marmore-para-pedreiro/</loc></url>
+  <url><loc>https://virada-propria.github.io/pedreiro/talhadeira-para-pedreiro-e-martelete-qual-escolher/</loc></url>
+  <url><loc>https://virada-propria.github.io/piscineiro/</loc></url>
+  <url><loc>https://virada-propria.github.io/piscineiro/aspirador-piscina/</loc></url>
+  <url><loc>https://virada-propria.github.io/piscineiro/clientes/</loc></url>
+  <url><loc>https://virada-propria.github.io/piscineiro/como-comecar/</loc></url>
+  <url><loc>https://virada-propria.github.io/piscineiro/kit-basico/</loc></url>
+  <url><loc>https://virada-propria.github.io/piscineiro/kits/</loc></url>
+  <url><loc>https://virada-propria.github.io/piscineiro/medicao-ph-cloro/</loc></url>
+  <url><loc>https://virada-propria.github.io/piscineiro/mei/</loc></url>
+  <url><loc>https://virada-propria.github.io/piscineiro/quanto-custa/</loc></url>
+  <url><loc>https://virada-propria.github.io/piscineiro/servicos/</loc></url>
+  <url><loc>https://virada-propria.github.io/piscineiro/tabela-precos/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/a-profissao/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/como-comecar-instalacao-manutencao-ar-condicionado/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/como-escolher-balanca-refrigeracao/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/como-escolher-bomba-vacuo-ar-condicionado/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/como-escolher-flangeador-ar-condicionado/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/como-escolher-lavadora-ar-condicionado/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/comparativo-alicates-amperimetros-refrigeracao/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/comparativo-balancas-refrigeracao/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/comparativo-bombas-vacuo-ar-condicionado/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/comparativo-detectores-vazamento-refrigerante/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/comparativo-flangeadores-ar-condicionado/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/comparativo-lavadoras-ar-condicionado/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/comparativo-macaricos-refrigeracao-brasagem/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/comparativo-manifolds-refrigeracao/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/comparativo-vacuometros-refrigeracao/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/curso-ar-condicionado-inverter/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/curso-ar-condicionado-janela/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/curso-refrigeracao-climatizacao-como-escolher/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/curso-tecnico-refrigeracao-climatizacao-competencia/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/cursos-instalacao-ar-condicionado/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/cursos-manutencao-ar-condicionado/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/cursos-pmoc-comparativo/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/equipamentos/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/ferramentas-instalador-ar-condicionado/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/formacao/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/instalacao-profissional-ar-condicionado-split/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/instalador-ar-condicionado-tecnico-refrigeracao-diferenca/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/instrumentos-complementares-diagnostico-refrigeracao/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/instrumentos-medicao-ar-condicionado/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/manifold-analogico-ou-digital/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/manutencao-preventiva-corretiva-ar-condicionado/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/mei-cnae-instalador-ar-condicionado-refrigeracao/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/o-que-faz-tecnico-refrigeracao-climatizacao/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/quanto-custa-comecar-ar-condicionado/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/quanto-ganha-tecnico-refrigeracao-instalador-ar-condicionado/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/refrigeracao-residencial-comercial/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/serra-copo-starrett-60-70-75-ar-condicionado/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/servicos-refrigeracao-climatizacao/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/trabalhar-com-ar-condicionado-da-dinheiro/</loc></url>
+  <url><loc>https://virada-propria.github.io/refrigeracao-climatizacao/vacuometro-ar-condicionado/</loc></url>
   <url><loc>https://virada-propria.github.io/soldador/</loc></url>
   <url><loc>https://virada-propria.github.io/soldador/a-profissao/</loc></url>
   <url><loc>https://virada-propria.github.io/soldador/certificacao-qualificacao-soldador/</loc></url>
@@ -163,5 +241,4 @@
   <url><loc>https://virada-propria.github.io/soldador/soldagem-mig-mag/</loc></url>
   <url><loc>https://virada-propria.github.io/soldador/soldagem-tig/</loc></url>
   <url><loc>https://virada-propria.github.io/soldador/tipos-de-soldagem/</loc></url>
-
 </urlset>
